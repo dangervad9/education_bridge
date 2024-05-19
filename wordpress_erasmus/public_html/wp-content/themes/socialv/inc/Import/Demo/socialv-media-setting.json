@@ -1,0 +1,115 @@
+{
+   "active_components": {
+     "sitewide": "sitewide",
+     "members": "members",
+     "groups": "groups"
+   },
+   "default_status": "public",
+   "active_statuses": {
+     "public": "public",
+     "private": "private",
+     "loggedin": "loggedin"
+   },
+   "active_types": {
+     "photo": "photo",
+     "video": "video",
+     "audio": "audio",
+     "doc": "doc"
+   },
+   "extensions": {
+     "photo": "jpeg,jpg,gif,png,webp",
+     "video": "mp4,flv,mpeg",
+     "audio": "mp3,wmv,midi",
+     "doc": "gz,doc,pdf,docx,xls,txt,ods"
+   },
+   "size_thumbnail": {
+     "width": "290",
+     "height": "290",
+     "crop": "1"
+   },
+   "size_mid": {
+     "width": "350",
+     "height": "350",
+     "crop": "1"
+   },
+   "size_large": {
+     "width": "600",
+     "height": "600",
+     "crop": "1"
+   },
+   "single_media_size": "original",
+   "lightbox_media_size": "original",
+   "mpp_upload_space": "1024",
+   "mpp_upload_space_groups": "1024",
+   "show_upload_quota": "1",
+   "show_max_upload_file_size": "1",
+   "default_storage": "local",
+   "enable_file_upload": "1",
+   "enable_remote": "1",
+   "enable_remote_file": "1",
+   "download_remote_file": "1",
+   "enable_oembed": "1",
+   "enable_debug": "1",
+   "enable_gallery_archive": "1",
+   "gallery_archive_slug": "site-galleries",
+   "gallery_permalink_slug": "site-gallery",
+   "sitewide_active_types": {
+     "photo": "photo",
+     "video": "video",
+     "audio": "audio"
+   },
+   "sitewide_photo_gallery_default_view": "default",
+   "sitewide_video_gallery_default_view": "default",
+   "sitewide_audio_gallery_default_view": "default",
+   "has_gallery_directory": "1",
+   "activity_upload": "1",
+   "activity_disable_auto_file_browser": "0",
+   "activity_photo_default_view": "default",
+   "activity_video_default_view": "default",
+   "activity_audio_default_view": "default",
+   "activity_doc_default_view": "default",
+   "show_orphaned_media": "0",
+   "delete_orphaned_media": "0",
+   "activity_media_display_limit": "6",
+   "members_active_types": {
+     "photo": "photo",
+     "video": "video",
+     "audio": "audio",
+     "doc": "doc"
+   },
+   "members_enable_type_filters": "1",
+   "members_photo_gallery_default_view": "default",
+   "members_video_gallery_default_view": "default",
+   "members_audio_gallery_default_view": "default",
+   "members_doc_gallery_default_view": "default",
+   "groups_active_types": {
+     "photo": "photo",
+     "video": "video",
+     "audio": "audio",
+     "doc": "doc"
+   },
+   "groups_photo_gallery_default_view": "default",
+   "groups_video_gallery_default_view": "default",
+   "groups_audio_gallery_default_view": "default",
+   "groups_doc_gallery_default_view": "default",
+   "enable_group_galleries_default": "yes",
+   "contributors_can_edit": "1",
+   "contributors_can_delete": "1",
+   "groups_enable_my_galleries": "1",
+   "galleries_per_page": "12",
+   "media_per_page": "20",
+   "media_columns": "4",
+   "gallery_columns": "4",
+   "show_gallery_description": "0",
+   "show_media_description": "0",
+   "enable_audio_playlist": "1",
+   "enable_video_playlist": "1",
+   "gdoc_viewer_enabled": "1",
+   "enable_media_comment": "0",
+   "enable_gallery_comment": "0",
+   "load_lightbox": "1",
+   "lightbox_media_only": "0",
+   "enable_activity_lightbox": "1",
+   "enable_gallery_lightbox": "1",
+   "enable_lightbox_in_gallery_media_list": "1"
+ }

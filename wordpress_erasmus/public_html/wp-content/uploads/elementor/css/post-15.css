@@ -1,0 +1,45 @@
+.elementor-15 .elementor-element.elementor-element-2d41fc1e{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-697018e{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-f8b540b{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-5f98ca4{text-align:center;}.elementor-15 .elementor-element.elementor-element-5f98ca4 .elementor-heading-title{color:#000000;font-family:"Roboto", Sans-serif;font-weight:600;text-transform:uppercase;}.elementor-15 .elementor-element.elementor-element-8285893{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-b8c289a.elementor-element{--align-self:center;}.elementor-15 .elementor-element.elementor-element-aee3a83{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-f646751 .elementor-heading-title{color:#000000;font-family:"Roboto", Sans-serif;font-weight:600;text-transform:uppercase;}.elementor-15 .elementor-element.elementor-element-f646751.elementor-element{--align-self:center;}.elementor-15 .elementor-element.elementor-element-d8d92a3{text-align:center;}.elementor-15 .elementor-element.elementor-element-d8d92a3 .elementor-heading-title{color:#000000;font-family:"Roboto", Sans-serif;font-weight:600;text-transform:uppercase;}.elementor-15 .elementor-element.elementor-element-d8d92a3.elementor-element{--align-self:center;}.elementor-15 .elementor-element.elementor-element-1ea3f4f{--display:flex;--background-transition:0.3s;}.elementor-15 .elementor-element.elementor-element-4c6db55.elementor-element{--align-self:center;}/* Start custom CSS for shortcode, class: .elementor-element-b8c289a */#bbp-search-form {
+  overflow: hidden;
+  display: flex;
+}
+
+
+#bbp_search {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #0073aa;
+  border-radius: 100px; /* Rounded borders */
+}
+
+#bbp_search_submit {
+  padding: 12px 16px; /* Увеличение поля */
+  font-size: 16px; /* Увеличение размера шрифта */
+  border-radius: 100px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+#bbp_search_submit:hover {
+  background-color: #005a85;
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-4c6db55 */.transparent-blue-bg {
+
+    padding: 8px;
+  border: 2px solid #0073aa;
+border-radius: 100px; 
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-697018e */@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.elementor-element-697018e {
+    animation: fadeIn 1s ease-in-out forwards;
+}/* End custom CSS */

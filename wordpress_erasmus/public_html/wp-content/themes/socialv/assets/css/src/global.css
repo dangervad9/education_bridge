@@ -1,0 +1,690 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Imports
+	# Custom properties
+	# Reset
+	# Typography
+	# Elements
+	# bLOCKS
+	# Media
+	# Links
+	# Header
+	# Footer
+# Accessibility
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import "_custom-properties.css";
+@import "_reset.css";
+@import "_typography.css";
+@import "_elements.css";
+@import "_links.css";
+@import "_blocks.css";
+@import "_header.css";
+@import "_verticle-sidebar.css";
+@import "_search.css";
+@import "_media.css";
+@import "_footer.css";
+@import "_select2.css";
+@import "_burger-menu.css";
+
+.bypostauthor {
+	display: block;
+}
+
+img.photo {
+	border-radius: var(--border-radius);
+	background: var(--color-default-bg-avatar);
+	object-fit: cover;
+}
+
+.border {
+    border: .063em solid var(--border-color-light)!important;
+}
+
+/* color buttons */
+.socialv-btn-primary,
+#buddypress .socialv-btn-primary,
+#buddypress input.socialv-btn-primary,
+#buddypress .generic-button a.socialv-btn-primary {
+	color: var(--color-theme-white);
+	background: var(--color-theme-primary);
+	border-color: var(--color-theme-primary);
+}
+
+.socialv-btn-grey,
+#buddypress .socialv-btn-grey,
+#buddypress input.socialv-btn-grey,
+#buddypress .generic-button a.socialv-btn-grey {
+	color: var(--color-theme-white);
+	background: var(--color-theme-grey);
+	border-color: var(--color-theme-grey);
+}
+
+.socialv-btn-success,
+#buddypress .socialv-btn-success,
+#buddypress input.socialv-btn-success,
+#buddypress .generic-button a.socialv-btn-success {
+	color: var(--color-theme-white);
+	background: var(--color-theme-success);
+	border-color: var(--color-theme-success);
+}
+.socialv-btn-danger,
+#buddypress .socialv-btn-danger,
+#buddypress input.socialv-btn-danger,
+#buddypress .generic-button a.socialv-btn-danger {
+	color: var(--color-theme-white);
+	background: var(--color-theme-danger);
+	border-color: var(--color-theme-danger);
+}
+
+.socialv-btn-info,
+#buddypress .socialv-btn-info,
+#buddypress input.socialv-btn-info,
+#buddypress .generic-button a.socialv-btn-info {
+	color: var(--color-theme-white);
+	background: var(--color-theme-info);
+	border-color: var(--color-theme-info);
+}
+
+.socialv-btn-warning,
+#buddypress .socialv-btn-warning,
+#buddypress input.socialv-btn-warning,
+#buddypress .generic-button a.socialv-btn-warning {
+	color: var(--color-theme-white);
+	background: var(--color-theme-warning);
+	border-color: var(--color-theme-warning);
+}
+
+.socialv-btn-orange,
+#buddypress .socialv-btn-orange,
+#buddypress input.socialv-btn-orange,
+#buddypress .generic-button a.socialv-btn-orange {
+	color: var(--color-theme-white);
+	background: var(--color-theme-orange);
+	border-color: var(--color-theme-orange);
+}
+
+/* hover button */
+.socialv-btn-primary:hover,
+#buddypress .socialv-btn-primary:hover,
+#buddypress input.socialv-btn-primary:hover,
+#buddypress .generic-button a.socialv-btn-primary:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-primary-dark);
+	border-color: var(--color-theme-primary-dark);
+}
+.socialv-btn-grey:hover,
+#buddypress .socialv-btn-grey:hover,
+#buddypress input.socialv-btn-grey:hover,
+#buddypress .generic-button a.socialv-btn-grey:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-grey-dark);
+	border-color: var(--color-theme-grey-dark);
+}
+.socialv-btn-success:hover,
+#buddypress .socialv-btn-success:hover,
+#buddypress input.socialv-btn-success:hover,
+#buddypress .generic-button a.socialv-btn-success:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-success-dark);
+	border-color: var(--color-theme-success-dark);
+}
+.socialv-btn-danger:hover,
+#buddypress .socialv-btn-danger:hover,
+#buddypress input.socialv-btn-danger:hover,
+#buddypress .generic-button a.socialv-btn-danger:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-danger-dark);
+	border-color: var(--color-theme-danger-dark);
+}
+
+.socialv-btn-info:hover,
+#buddypress .socialv-btn-info:hover,
+#buddypress input.socialv-btn-info:hover,
+#buddypress .generic-button a.socialv-btn-info:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-info-dark);
+	border-color: var(--color-theme-info-dark);
+}
+
+.socialv-btn-warning:hover,
+#buddypress .socialv-btn-warning:hover,
+#buddypress input.socialv-btn-warning:hover,
+#buddypress .generic-button a.socialv-btn-warning:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-warning-dark);
+	border-color: var(--color-theme-warning-dark);
+}
+
+.socialv-btn-orange:hover,
+#buddypress .socialv-btn-orange:hover,
+#buddypress input.socialv-btn-orange:hover,
+#buddypress .generic-button a.socialv-btn-orange:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-orange-dark);
+	border-color: var(--color-theme-orange-dark);
+}
+
+/* button outline */
+.btn.socialv-btn-outline-primary,
+#buddypress .btn.socialv-btn-outline-primary,
+#buddypress input.socialv-btn-outline-primary,
+#buddypress .generic-button a.socialv-btn-outline-primary {
+	color: var(--color-theme-primary);
+	background: var(--color-theme-primary-light);
+	border-color: var(--color-theme-primary);
+}
+
+.btn.socialv-btn-outline-grey,
+#buddypress .btn.socialv-btn-outline-grey,
+#buddypress input.socialv-btn-outline-grey,
+#buddypress .generic-button a.socialv-btn-outline-grey {
+	color: var(--color-theme-grey);
+	background: var(--color-theme-grey-light);
+	border-color: var(--color-theme-grey);
+}
+
+.btn.socialv-btn-outline-success,
+#buddypress .btn.socialv-btn-outline-success,
+#buddypress input.socialv-btn-outline-success,
+#buddypress .generic-button a.socialv-btn-outline-success {
+	color: var(--color-theme-success);
+	background: var(--color-theme-success-light);
+	border-color: var(--color-theme-success);
+}
+.btn.socialv-btn-outline-danger,
+#buddypress .btn.socialv-btn-outline-danger,
+#buddypress input.socialv-btn-outline-danger,
+#buddypress .generic-button a.socialv-btn-outline-danger {
+	color: var(--color-theme-danger);
+	background: var(--color-theme-danger-light);
+	border-color: var(--color-theme-danger);
+}
+
+.btn.socialv-btn-outline-info,
+#buddypress .btn.socialv-btn-outline-info,
+#buddypress input.socialv-btn-outline-info,
+#buddypress .generic-button a.socialv-btn-outline-info {
+	color: var(--color-theme-info);
+	background: var(--color-theme-info-light);
+	border-color: var(--color-theme-info);
+}
+
+.btn.socialv-btn-outline-warning,
+#buddypress .btn.socialv-btn-outline-warning,
+#buddypress input.socialv-btn-outline-warning,
+#buddypress .generic-button a.socialv-btn-outline-warning {
+	color: var(--color-theme-warning);
+	background: var(--color-theme-warning-light);
+	border-color: var(--color-theme-warning);
+}
+
+.btn.socialv-btn-outline-orange,
+#buddypress .btn.socialv-btn-outline-orange,
+#buddypress input.socialv-btn-outline-orange,
+#buddypress .generic-button a.socialv-btn-outline-orange {
+	color: var(--color-theme-orange);
+	background: var(--color-theme-orange-light);
+	border-color: var(--color-theme-orange);
+}
+
+/* hover button outline */
+.btn.socialv-btn-outline-primary:hover,
+#buddypress .btn.socialv-btn-outline-primary:hover,
+#buddypress input.socialv-btn-outline-primary:hover,
+#buddypress .generic-button a.socialv-btn-outline-primary:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-primary);
+	border-color: var(--color-theme-primary);
+}
+.btn.socialv-btn-outline-grey:hover,
+#buddypress .btn.socialv-btn-outline-grey:hover,
+#buddypress input.socialv-btn-outline-grey:hover,
+#buddypress .generic-button a.socialv-btn-outline-grey:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-grey);
+	border-color: var(--color-theme-grey);
+}
+.btn.socialv-btn-outline-success:hover,
+#buddypress .btn.socialv-btn-outline-success:hover,
+#buddypress input.socialv-btn-outline-success:hover,
+#buddypress .generic-button a.socialv-btn-outline-success:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-success);
+	border-color: var(--color-theme-success);
+}
+.btn.socialv-btn-outline-danger:hover,
+#buddypress .btn.socialv-btn-outline-danger:hover,
+#buddypress input.socialv-btn-outline-danger:hover,
+#buddypress .generic-button a.socialv-btn-outline-danger:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-danger);
+	border-color: var(--color-theme-danger);
+}
+
+.btn.socialv-btn-outline-info:hover,
+#buddypress .btn.socialv-btn-outline-info:hover,
+#buddypress input.socialv-btn-outline-info:hover,
+#buddypress .generic-button a.socialv-btn-outline-info:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-info-dark);
+	border-color: var(--color-theme-info-dark);
+}
+
+.btn.socialv-btn-outline-orange:hover,
+#buddypress .btn.socialv-btn-outline-orange:hover,
+#buddypress input.socialv-btn-outline-orange:hover,
+#buddypress .generic-button a.socialv-btn-outline-orange:hover {
+	color: var(--color-theme-white);
+	background: var(--color-theme-orange);
+	border-color: var(--color-theme-orange);
+}
+
+/* button alert */
+
+.socialv-alert {
+	padding: 1em;
+    margin-bottom: 1em;
+    border-left: .1875em solid;
+}
+
+.socialv-alert-primary {
+	color: var(--color-theme-primary);
+	border-color: var(--color-theme-primary);
+	background: var(--color-theme-primary-light);
+}
+
+.socialv-alert-success,
+.pmpro_success {
+	color: var(--color-theme-success);
+	border-color: var(--color-theme-success);
+	background: var(--color-theme-success-light);
+}
+
+.socialv-alert-danger,
+.pmpro_error {
+	color: var(--color-theme-danger);
+	border-color: var(--color-theme-danger);
+	background: var(--color-theme-danger-light);
+}
+.socialv-alert-info,
+.pmpro_message {
+	color: var(--color-theme-info);
+	border-color: var(--color-theme-info);
+	background: var(--color-theme-info-light);
+}
+
+.socialv-alert-orange,
+.pmpro_alert {
+	color: var(--color-theme-orange);
+	border-color: var(--color-theme-orange);
+	background: var(--color-theme-orange-light);
+}
+
+/* list group */
+.list-group-square {
+    list-style-type: square;
+}
+.list-group-circle {
+    list-style-type: circle;
+}
+.list-group-disc {
+    list-style-type: disc;
+}
+.list-style-decimal {
+    list-style-type: decimal;
+}
+.list-style-disclosure-closed {
+    list-style-type: disclosure-closed;
+}
+.list-style-disclosure-open {
+    list-style-type: disclosure-open;
+}
+
+/* card box start */
+.card-space {
+	margin-top: 2em;
+}
+
+.card-space-bottom {
+	margin-bottom: 2em;
+}
+
+.card-main {
+	background: var(--color-theme-white-box);
+	border: none;
+	border-radius: var(--border-radius-box);
+	box-shadow: var(--global-box-shadow);
+}
+
+.card-inner {
+	padding: 2em;
+}
+
+.card-main .card-head {
+	padding: 2em 2em 0;
+}
+
+.card-main .card-head.card-header-border {
+	padding-bottom: 2em;
+	border-bottom: .0625em solid var(--border-color-light);
+}
+
+.card-main .card-inner .card-head.card-header-border {
+	padding: 0 0 1.25em;
+	margin-bottom: 2em;
+}
+
+.card-main .card-inner .card-head {
+	padding: 0;
+}
+
+@media(max-width:767px) {
+	.card-inner {
+		padding: 1em;
+	}
+
+	.card-main .card-head {
+		padding: 1em 1em 0;
+	}
+
+	.card-main .card-head.card-header-border {
+		padding-bottom: 1em;
+	}
+
+	.card-main .card-inner .card-head.card-header-border {
+		margin-bottom: 1em;
+	}
+}
+
+/* card box end */
+
+/* admin panel menu icon */
+#socialv-preview-image {
+	width: 25px;
+	height: 25px;
+}
+
+/* wp editor */
+#bbpress-forums div.wp-editor-container {
+	border: .063em solid var(--border-color-light);
+	border-radius: var(--border-radius);
+}
+
+.wp-editor-wrap input {
+	width: auto;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper input[type=button] {
+	color: #50575e;
+	padding: .25em .438em;
+	font-size: .688em;
+	min-width: 1.563em;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+	font-size: var(--font-size-small);
+	background: var(--color-theme-white-box);
+}
+
+.wp-editor-wrap .quicktags-toolbar {
+	background: #f6f7f7;
+	color: var(--global-font-color);
+	border: none;
+	border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.wp-editor-container textarea.wp-editor-area:focus {
+	border-color: transparent;
+}
+
+.wp-editor-wrap .quicktags-toolbar input {
+    border-color: transparent;
+    color: inherit;
+	background: transparent;
+}
+
+.wp-editor-container textarea.wp-editor-area {
+	background: var(--color-theme-white-box);
+	border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.wp-editor-wrap .wp-editor-container {
+	border: .063em solid var(--border-color-light);
+}
+.bbp-forms-sv .bbp-the-content-wrapper {
+    margin-bottom: 2em;
+}
+span.bbp-admin-links {
+	color: var(--border-color-light);
+}
+span.bbp-admin-links a {
+	color: var(--global-font-color);
+}
+
+
+/* avatar */
+.avatar-10 {
+	height: .625em;
+	width: .625em;
+	min-width: .625em;
+}
+
+.avatar-20 {
+	height: 1.25em;
+	width: 1.25em;
+	min-width: 1.25em;
+}
+
+.avatar-30 {
+	height: 1.875em;
+	width: 1.875em;
+	min-width: 1.875em;
+}
+
+.avatar-32 {
+	height: 2em !important;
+	width: 2em;
+	min-width: 2em;
+}
+
+.avatar-35 {
+	height: 2.188em;
+	width: 2.188em;
+	min-width: 2.188em;
+}
+
+.avatar-40 {
+	height: 2.5em;
+	width: 2.5em;
+	min-width: 2.5em;
+}
+
+.avatar-50 {
+	height: 3.125em;
+	width: 3.125em;
+	min-width: 3.125em;
+}
+
+.avatar-55 {
+	height: 3.438em;
+	width: 3.438em;
+	min-width: 3.438em;
+}
+
+.avatar-60 {
+	height: 3.75em;
+	width: 3.75em;
+	min-width: 3.75em;
+}
+
+.avatar-65 {
+	height: 4.063em;
+	width: 4.063em;
+	min-width: 4.063em;
+}
+
+.avatar-70 {
+	height: 4.375em;
+	width: 4.375em;
+	min-width: 4.375em;
+}
+
+.avatar-80 {
+	height: 5em;
+	width: 5em;
+	min-width: 5em;
+}
+
+.avatar-90 {
+	height: 5.625em;
+	width: 5.625em;
+	min-width: 5.625em;
+}
+
+.avatar-100 {
+	height: 6.25em;
+	width: 6.25em;
+	min-width: 6.25em;
+}
+
+.avatar-140 {
+	height: 8.75em;
+	width: 8.75em;
+	min-width: 8.75em;
+}
+
+.avatar-150 {
+	height: 9.375em;
+	width: 9.375em;
+	min-width: 9.375em;
+}
+
+@media (max-width: 767px) {
+	.avatar-150 {
+		height: 6.375em;
+		width: 6.375em;
+		min-width: 6.375em;
+	}
+}
+
+/*Tooltip */
+.bp-verified-badge-tooltip,
+.bp-unverified-badge-tooltip {
+	padding: .25em 1.25em;
+	font-size: .8em;
+}
+
+/*Important for  checkbox */
+
+.socialv-check label {
+	position: relative;
+}
+
+.comment-respond .socialv-check {
+	margin-bottom: 1.875em;
+}
+
+.socialv-check label {
+	color: var(--global-font-color);
+}
+.socialv-check label span{
+	padding-left: 1.5em;
+}
+.socialv-check label input[type=checkbox]{
+	position: absolute;
+    top: .375em;
+	cursor: pointer;
+	width: 1.063em;
+	height: 1.063em;
+	line-height: normal;
+}
+.table-responsive {
+	overflow-y: hidden;
+	border-radius: var(--border-radius-box);
+}
+
+body.badge {
+	display: inherit;
+	padding: 0;
+	white-space: inherit;
+	border-radius: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	color: var(--global-font-color);
+	text-align: inherit;
+	vertical-align: inherit;
+}
+
+body::before {
+	position: fixed;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .8);
+	opacity: 0;
+	transition: all .45s ease;
+	z-index: -1;
+}
+
+.mfp-bg {
+	z-index: 99999;
+}
+.mfp-wrap {
+	z-index: 99999;
+}
+
+@media (max-width: 1199px) {
+	body.overflow-hidden::before{
+		opacity: 1;
+		z-index: 9999;
+	}
+}
+
+@media (max-width: 991px) {
+	body.socialv-body-overflow::before {
+		opacity: 1;
+		z-index: 999;
+	}
+}
+
+@media (max-width: 767px) {
+	.card-space {
+		margin-top: 1em;
+	}
+
+	.card-space-bottom {
+		margin-bottom: 1em;
+	}
+
+	.avatar-80 {
+		height: 3em;
+		width: 3em;
+		min-width: 3em;
+	}
+
+	.avatar-140 {
+		width: 6.25em;
+		height: 6.25em;
+		min-width: 6.25em;
+	}
+	.comment-respond .socialv-check {
+		margin-bottom: 1em;
+	}
+}
+
+@media(max-width:479px) {
+	.avatar-140 {
+		width: 5em;
+		height: 5em;
+		min-width: 5em;
+	}
+}

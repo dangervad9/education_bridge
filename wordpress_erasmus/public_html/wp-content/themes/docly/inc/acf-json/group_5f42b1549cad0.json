@@ -1,0 +1,67 @@
+{
+    "key": "group_5f42b1549cad0",
+    "title": "OnePage Configurations",
+    "fields": [
+        {
+            "key": "field_5f42b16856850",
+            "label": "Doc ID",
+            "name": "doc_id",
+            "type": "text",
+            "instructions": "How to find the ID https:\/\/is.gd\/TeczAk",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_607349ccd01ec",
+            "label": "Right Sidebar Content",
+            "name": "right_sidebar_content",
+            "type": "wysiwyg",
+            "instructions": "You can input here content that will appear on the right sidebar of this Onepage Doc.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-onepage.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618168535
+}

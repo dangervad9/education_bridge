@@ -1,0 +1,7234 @@
+# Copyright (C) 2023 Iqonic Design
+# This file is distributed under the GNU General Public License v3.0 (or later).
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialV 2.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/socialv\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-03T17:47:40+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: socialv\n"
+
+#. Theme Name of the theme
+#: inc/Redux_Framework/Options/Logo.php:37
+msgid "SocialV"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://wordpress.iqonic.design/product/wp/socialv/"
+msgstr ""
+
+#. Description of the theme
+msgid "Social Network and Community BuddyPress Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "Iqonic Design"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: bbpress/form-reply-move.php:26
+msgid "Move reply \"%s\""
+msgstr ""
+
+#: bbpress/form-reply-move.php:32
+msgid "You can either make this reply a new topic with a new title, or merge it into an existing topic."
+msgstr ""
+
+#: bbpress/form-reply-move.php:38
+msgid "If you choose an existing topic, replies will be ordered by the time and date they were created."
+msgstr ""
+
+#: bbpress/form-reply-move.php:43
+msgid "Move Method"
+msgstr ""
+
+#: bbpress/form-reply-move.php:47
+#: bbpress/form-topic-split.php:47
+msgid "New topic in %s titled:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:51
+msgid "moved"
+msgstr ""
+
+#: bbpress/form-reply-move.php:51
+msgid "Moved: %s"
+msgstr ""
+
+#: bbpress/form-reply-move.php:58
+#: bbpress/form-topic-split.php:57
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:78
+#: bbpress/form-topic-merge.php:97
+#: bbpress/form-topic-split.php:114
+msgid "This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-reply-move.php:83
+#: bbpress/form-reply.php:177
+#: bbpress/form-topic-merge.php:102
+#: bbpress/form-topic-split.php:119
+#: bbpress/form-topic.php:215
+#: woocommerce/single-product-reviews.php:84
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-reply-move.php:97
+msgid "You do not have permission to edit this reply."
+msgstr ""
+
+#: bbpress/form-reply-move.php:98
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: bbpress/form-reply-search.php:19
+#: bbpress/form-reply-search.php:20
+msgid "Search replies:"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+msgid "Reply #%1$s in %2$s"
+msgstr ""
+
+#: bbpress/form-reply.php:38
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to reply."
+msgstr ""
+
+#: bbpress/form-reply.php:48
+msgid "This forum is closed to new content, however your posting capabilities still allow you to post."
+msgstr ""
+
+#: bbpress/form-reply.php:58
+#: bbpress/form-topic.php:69
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-reply.php:80
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: bbpress/form-reply.php:92
+#: bbpress/form-reply.php:93
+#: template-parts/content/entry_taxonomies.php:21
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:108
+#: bbpress/form-topic.php:177
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:112
+#: bbpress/form-topic.php:181
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:131
+msgid "Reply To:"
+msgstr ""
+
+#: bbpress/form-reply.php:140
+msgid "Reply Status:"
+msgstr ""
+
+#: bbpress/form-reply.php:153
+#: bbpress/form-topic.php:197
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:159
+#: bbpress/form-reply.php:160
+#: bbpress/form-topic.php:200
+#: bbpress/form-topic.php:201
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:201
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:211
+#: bbpress/form-topic.php:239
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:222
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:223
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-search.php:18
+#: bbpress/form-search.php:20
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:26
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:32
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:33
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:39
+msgid "Replies to both topics are merged chronologically, ordered by the time and date they were published. Topics may be updated to a 1 second difference to maintain chronological order based on the merge direction."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:44
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:48
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:63
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:71
+#: bbpress/form-topic-split.php:79
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:77
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:82
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:87
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:116
+#: bbpress/form-topic-split.php:133
+msgid "You do not have permission to edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:117
+#: bbpress/form-topic-split.php:134
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-search.php:19
+#: bbpress/form-topic-search.php:20
+msgid "Search topics:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:26
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:32
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:38
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:43
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:50
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:86
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:94
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:103
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:19
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:23
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:27
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:33
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:45
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:50
+msgid "Description:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:55
+#: inc/class-socialv_tgm-plugin-activation.php:2820
+#: inc/class-tgm-plugin-activation.php:2819
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:69
+#: bbpress/form-topic-tag.php:85
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:73
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:80
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:85
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:100
+#: bbpress/form-topic-tag.php:117
+#: buddypress/activity/comment.php:60
+#: buddypress/members/single/messages/messages-loop.php:137
+#: buddypress/members/single/messages/messages-loop.php:164
+#: buddypress/members/single/messages/single.php:52
+#: buddypress/members/single/notifications/notifications-loop.php:60
+#: inc/Custom_Helper/Helpers/Activity.php:749
+#: inc/Custom_Helper/Helpers/Members.php:1238
+#: inc/Custom_Helper/Helpers/Members.php:1435
+#: mediapress/default/buddypress/groups/gallery/single.php:76
+#: mediapress/default/buddypress/members/gallery/single.php:74
+msgid "Delete"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:104
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:109
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:110
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:117
+msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:44
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:46
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:47
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:59
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to create a topic."
+msgstr ""
+
+#: bbpress/form-topic.php:84
+#: bbpress/form-topic.php:85
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:99
+msgid "You may use these %s tags and attributes:"
+msgstr ""
+
+#: bbpress/form-topic.php:110
+#: bbpress/form-topic.php:111
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:126
+msgid "&mdash; No forum &mdash;"
+msgstr ""
+
+#: bbpress/form-topic.php:130
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:147
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:159
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:250
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:251
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:17
+#: bbpress/form-user-edit.php:22
+#: woocommerce/myaccount/my-address.php:96
+#: woocommerce/order/order-details-customer.php:51
+#: woocommerce/single-product-reviews.php:104
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:27
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:32
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:37
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:42
+#: inc/Redux_Framework/Options/Woocommerce.php:247
+msgid "Display Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:52
+#: bbpress/form-user-edit.php:55
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:60
+#: comments.php:82
+#: comments.php:83
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:78
+#: bbpress/form-user-edit.php:84
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:79
+#: bbpress/form-user-edit.php:85
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:91
+#: learnpress/profile/tabs/settings/basic-information.php:49
+#: learnpress/profile/tabs/settings/basic-information.php:50
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:99
+#: bbpress/form-user-edit.php:102
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:107
+#: bbpress/form-user-login.php:25
+#: bbpress/form-user-login.php:28
+#: bbpress/form-user-register.php:36
+#: bbpress/form-user-register.php:39
+#: buddypress/members/register.php:83
+#: buddypress/members/register.php:94
+#: learnpress/checkout/account-register.php:24
+#: learnpress/checkout/account-register.php:25
+#: woocommerce/global/form-login.php:36
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:112
+#: bbpress/form-user-register.php:44
+#: bbpress/form-user-register.php:47
+#: buddypress/members/single/invitations/send-invites.php:25
+#: learnpress/checkout/account-register.php:22
+#: woocommerce/share.php:75
+#: woocommerce/single-product-reviews.php:110
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:119
+msgid "Language"
+msgstr ""
+
+#: bbpress/form-user-edit.php:131
+#: bbpress/form-user-edit.php:134
+msgid "User Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:141
+msgid "Network Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:144
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:161
+#: buddypress/groups/single/admin/edit-details.php:58
+#: buddypress/groups/single/admin/group-settings.php:126
+#: buddypress/members/single/cover-image-header.php:80
+#: buddypress/members/single/profile/edit.php:234
+#: buddypress/members/single/settings/general.php:56
+#: buddypress/members/single/settings/notifications.php:33
+#: inc/Custom_Helper/Helpers/Members.php:1952
+#: inc/Redux_Framework/templates/panel/footer.tpl.php:59
+#: inc/Redux_Framework/templates/panel/header.tpl.php:77
+#: template-parts/buddypress-custom/privacy-security.php:47
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:167
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:168
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:22
+#: bbpress/form-user-login.php:49
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:33
+#: bbpress/form-user-login.php:36
+#: bbpress/form-user-passwords.php:17
+#: learnpress/checkout/account-login.php:27
+#: learnpress/checkout/account-login.php:28
+#: learnpress/checkout/account-register.php:27
+#: learnpress/checkout/account-register.php:28
+#: learnpress/checkout/account-register.php:31
+#: woocommerce/global/form-login.php:39
+#: woocommerce/myaccount/form-login.php:44
+#: woocommerce/myaccount/form-login.php:45
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:42
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:23
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:27
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:36
+msgid "Reset My Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:18
+msgid "Generate Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:26
+msgid "Hide password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:28
+msgid "Hide"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:29
+msgid "Cancel password change"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:31
+#: buddypress/members/single/cover-image-header.php:79
+#: inc/Custom_Helper/Helpers/Members.php:1437
+#: learnpress/addons/course-review/review-form.php:50
+#: paid-memberships-pro/pages/account.php:172
+msgid "Cancel"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:40
+#: buddypress/members/single/settings/general.php:43
+#: buddypress/members/single/settings/general.php:44
+msgid "Repeat New Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:42
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-passwords.php:46
+msgid "Confirm"
+msgstr ""
+
+#: bbpress/form-user-register.php:23
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:30
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:31
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr ""
+
+#: bbpress/form-user-register.php:55
+#: woocommerce/myaccount/form-login.php:73
+#: woocommerce/myaccount/form-login.php:99
+#: woocommerce/myaccount/form-login.php:100
+msgid "Register"
+msgstr ""
+
+#: bbpress/loop-forums.php:21
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-forums.php:24
+#: inc/Redux_Framework/Options/RestrictedMode.php:91
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:28
+#: bbpress/loop-replies.php:20
+#: bbpress/loop-topics.php:28
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:29
+#: bbpress/loop-replies.php:21
+#: bbpress/loop-topics.php:29
+#: buddypress/groups/groups-loop.php:92
+#: buddypress/groups/single/home.php:87
+#: buddypress/members/single/groups/invites.php:52
+#: inc/Custom_Helper/Helpers/Members.php:1362
+#: inc/Redux_Framework/Options/RestrictedMode.php:86
+#: template-parts/header/search.php:39
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:33
+#: bbpress/loop-topics.php:33
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:18
+#: bbpress/loop-search.php:19
+#: bbpress/loop-search.php:41
+msgid "Author"
+msgstr ""
+
+#: bbpress/loop-search.php:23
+#: bbpress/loop-search.php:45
+msgid "Search Results"
+msgstr ""
+
+#: bbpress/loop-single-reply.php:20
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-topics.php:21
+msgid "Topic"
+msgstr ""
+
+#: bbpress/loop-topics.php:24
+msgid "Voices"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:51
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: buddypress/activity/comment.php:33
+msgid "<a href=\"%1$s\">%2$s</a><div class=\"activity-time-main\"> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\" data-livestamp=\"%4$s\">%5$s</span></a></div>"
+msgstr ""
+
+#: buddypress/activity/comment.php:54
+#: inc/Comments/Component.php:246
+msgid "Reply"
+msgstr ""
+
+#: buddypress/activity/entry.php:81
+#: comments.php:39
+msgid " Comment"
+msgstr ""
+
+#: buddypress/activity/entry.php:81
+#: comments.php:41
+msgid " Comments"
+msgstr ""
+
+#: buddypress/activity/entry.php:92
+msgid "View Conversation"
+msgstr ""
+
+#: buddypress/activity/entry.php:106
+msgid "Like"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/activity/entry.php:123
+#: buddypress/activity/entry.php:182
+#: comments.php:62
+msgid "Comment"
+msgstr ""
+
+#: buddypress/activity/entry.php:135
+msgid "Share"
+msgstr ""
+
+#: buddypress/activity/entry.php:185
+msgid "Write a Comment ..."
+msgstr ""
+
+#. translators: 1: group name. 2: member name.
+#: buddypress/activity/post-form.php:39
+msgid "What's new in %1$s, %2$s?"
+msgstr ""
+
+#. translators: %s: member name
+#: buddypress/activity/post-form.php:42
+msgid "What's on your mind, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:46
+msgid "Post what's new"
+msgstr ""
+
+#: buddypress/activity/post-form.php:58
+msgid "Post in"
+msgstr ""
+
+#: buddypress/activity/post-form.php:61
+msgid "My Profile"
+msgstr ""
+
+#: buddypress/activity/post-form.php:89
+#: buddypress/activity/post-form.php:90
+#: buddypress/groups/groups-loop.php:92
+#: buddypress/groups/single/home.php:87
+#: buddypress/members/single/groups/invites.php:52
+msgid "Post"
+msgstr ""
+
+#: buddypress/activity/type-parts/content-created-group.php:20
+#: buddypress/activity/type-parts/content-created-group.php:34
+#: buddypress/activity/type-parts/content-created-group.php:55
+#: buddypress/activity/type-parts/content-created-group.php:67
+#: buddypress/activity/type-parts/content-created-group.php:69
+#: buddypress/activity/type-parts/content-new-avatar.php:41
+#: buddypress/activity/type-parts/content-new-avatar.php:75
+#: buddypress/activity/type-parts/content-new-avatar.php:86
+#: buddypress/activity/type-parts/content-new-avatar.php:88
+#: inc/Custom_Helper/Helpers/Activity.php:257
+#: inc/Custom_Helper/Helpers/Activity.php:299
+#: inc/Custom_Helper/Helpers/Groups.php:338
+msgid "image"
+msgstr ""
+
+#: buddypress/activity/type-parts/content-created-group.php:22
+#: buddypress/activity/type-parts/content-created-group.php:57
+#: inc/Custom_Helper/Helpers/Activity.php:301
+msgid "group"
+msgstr ""
+
+#: buddypress/activity/type-parts/content-new-avatar.php:43
+#: buddypress/activity/type-parts/content-new-avatar.php:77
+#: inc/Custom_Helper/Helpers/Activity.php:259
+msgid "activity"
+msgstr ""
+
+#: buddypress/groups/create.php:72
+msgid "Group Details"
+msgstr ""
+
+#: buddypress/groups/create.php:85
+#: buddypress/groups/single/admin/edit-details.php:24
+msgid "Group Name"
+msgstr ""
+
+#: buddypress/groups/create.php:86
+#: buddypress/groups/single/admin/edit-details.php:25
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:90
+#: buddypress/groups/single/admin/edit-details.php:29
+msgid "Group Description"
+msgstr ""
+
+#: buddypress/groups/create.php:91
+#: buddypress/groups/single/admin/edit-details.php:30
+msgid "Group Description (required)"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/create.php:113
+msgid "Group Settings"
+msgstr ""
+
+#: buddypress/groups/create.php:127
+#: buddypress/groups/single/admin/group-settings.php:25
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/create.php:131
+#: buddypress/groups/single/admin/group-settings.php:29
+msgid "This is a public group"
+msgstr ""
+
+#: buddypress/groups/create.php:134
+#: buddypress/groups/single/admin/group-settings.php:32
+msgid "Any site member can join this group."
+msgstr ""
+
+#: buddypress/groups/create.php:135
+#: buddypress/groups/create.php:146
+#: buddypress/groups/single/admin/group-settings.php:33
+#: buddypress/groups/single/admin/group-settings.php:43
+msgid "This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:136
+#: buddypress/groups/single/admin/group-settings.php:34
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/create.php:142
+#: buddypress/groups/single/admin/group-settings.php:39
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/create.php:145
+#: buddypress/groups/single/admin/group-settings.php:42
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:147
+#: buddypress/groups/create.php:158
+#: buddypress/groups/single/admin/group-settings.php:44
+#: buddypress/groups/single/admin/group-settings.php:54
+msgid "Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddypress/groups/create.php:153
+#: buddypress/groups/single/admin/group-settings.php:49
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddypress/groups/create.php:156
+#: buddypress/groups/single/admin/group-settings.php:52
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:157
+#: buddypress/groups/single/admin/group-settings.php:53
+msgid "This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/create.php:171
+#: buddypress/groups/single/admin/group-settings.php:66
+msgid "Group Types"
+msgstr ""
+
+#: buddypress/groups/create.php:173
+#: buddypress/groups/single/admin/group-settings.php:68
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#. translators: Group type description shown when creating a group.
+#: buddypress/groups/create.php:181
+#: buddypress/groups/single/admin/group-settings.php:76
+msgid "&ndash; %s"
+msgstr ""
+
+#: buddypress/groups/create.php:197
+#: buddypress/groups/single/admin/group-settings.php:93
+msgid "Group Invitations"
+msgstr ""
+
+#: buddypress/groups/create.php:199
+#: buddypress/groups/single/admin/group-settings.php:95
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddypress/groups/create.php:204
+#: buddypress/groups/single/admin/group-settings.php:100
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/create.php:208
+#: buddypress/groups/single/admin/group-settings.php:105
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/create.php:212
+#: buddypress/groups/single/admin/group-settings.php:108
+msgid "Group admins only"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/create.php:239
+msgid "Group Avatar"
+msgstr ""
+
+#: buddypress/groups/create.php:260
+msgid "Upload an image to use as a profile photo for this group. The image will be shown on the main group page, and in search results."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/create.php:265
+#: buddypress/members/single/profile/change-avatar.php:71
+msgid "Select an image"
+msgstr ""
+
+#: buddypress/groups/create.php:268
+#: buddypress/members/single/profile/change-avatar.php:74
+#: inc/Redux_Framework/Options/SideArea.php:83
+msgid "Upload Image"
+msgstr ""
+
+#: buddypress/groups/create.php:272
+msgid "To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddypress/groups/create.php:287
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:289
+#: buddypress/members/single/profile/change-avatar.php:89
+msgid "Profile photo to crop"
+msgstr ""
+
+#: buddypress/groups/create.php:292
+#: buddypress/members/single/profile/change-avatar.php:92
+msgid "Profile photo preview"
+msgstr ""
+
+#: buddypress/groups/create.php:295
+#: buddypress/members/single/profile/change-avatar.php:95
+msgid "Crop Image"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/create.php:324
+#: inc/Custom_Helper/Helpers/Groups.php:230
+msgid "Cover Image"
+msgstr ""
+
+#: buddypress/groups/create.php:338
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/create.php:360
+msgid "Group Invites"
+msgstr ""
+
+#: buddypress/groups/create.php:389
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: buddypress/groups/create.php:407
+msgid "Remove Invite"
+msgstr ""
+
+#: buddypress/groups/create.php:424
+msgid "Once you have built up friend connections you will be able to invite others to your group."
+msgstr ""
+
+#: buddypress/groups/create.php:470
+msgid "Back to Previous Step"
+msgstr ""
+
+#: buddypress/groups/create.php:477
+msgid "Next Step"
+msgstr ""
+
+#: buddypress/groups/create.php:484
+msgid "Create Group and Continue"
+msgstr ""
+
+#: buddypress/groups/create.php:491
+msgid "Finish"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:28
+#: inc/Custom_Helper/Helpers/Groups.php:326
+msgid "Group"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:28
+#: template-parts/header/search.php:31
+msgid "Groups"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:99
+#: buddypress/groups/single/home.php:90
+#: buddypress/groups/single/members.php:18
+#: buddypress/members/single/groups/invites.php:59
+#: inc/Custom_Helper/Helpers/Activity.php:317
+#: inc/Custom_Helper/Helpers/Activity.php:768
+msgid "Member"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:99
+#: buddypress/groups/single/admin/manage-members.php:162
+#: buddypress/groups/single/home.php:90
+#: buddypress/groups/single/members.php:18
+#: buddypress/members/single/groups/invites.php:59
+#: inc/Custom_Helper/Helpers/Activity.php:317
+#: inc/Custom_Helper/Helpers/Activity.php:768
+#: template-parts/header/search.php:23
+msgid "Members"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:113
+#: buddypress/members/single/groups/invites.php:73
+msgid "No Members"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:161
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/index.php:71
+msgid "All Groups"
+msgstr ""
+
+#: buddypress/groups/index.php:81
+msgid "My Groups"
+msgstr ""
+
+#: buddypress/groups/index.php:94
+msgid "Groups directory secondary navigation"
+msgstr ""
+
+#: buddypress/groups/index.php:100
+msgid "Sort By:"
+msgstr ""
+
+#: buddypress/groups/index.php:103
+#: buddypress/members/index.php:100
+#: buddypress/members/single/friends.php:41
+#: buddypress/members/single/groups.php:44
+msgid "Last Active"
+msgstr ""
+
+#: buddypress/groups/index.php:104
+#: buddypress/members/single/groups.php:45
+msgid "Most Members"
+msgstr ""
+
+#: buddypress/groups/index.php:105
+#: buddypress/members/single/groups.php:46
+msgid "Newly Created"
+msgstr ""
+
+#: buddypress/groups/index.php:106
+#: buddypress/members/index.php:104
+#: buddypress/members/single/friends.php:43
+#: buddypress/members/single/groups.php:47
+#: inc/Custom_Helper/Helpers/Groups.php:260
+msgid "Alphabetical"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/groups/index.php:126
+msgid "Groups directory"
+msgstr ""
+
+#: buddypress/groups/single/activity.php:29
+msgid "RSS Feed"
+msgstr ""
+
+#: buddypress/groups/single/activity.php:30
+msgid "RSS"
+msgstr ""
+
+#: buddypress/groups/single/activity.php:43
+#: buddypress/members/single/activity.php:36
+msgid "Show:"
+msgstr ""
+
+#: buddypress/groups/single/activity.php:45
+#: buddypress/members/single/activity.php:38
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:12
+#: buddypress/groups/single/admin/delete-group.php:39
+msgid "Delete Group"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:24
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:27
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:12
+msgid "Manage Group Details"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:44
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:12
+msgid "Manage Group Settings"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:15
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:50
+#: buddypress/groups/single/admin/manage-members.php:124
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:81
+msgid "No group administrators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:88
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:123
+#: buddypress/groups/single/admin/manage-members.php:211
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:155
+msgid "No group moderators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:181
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:205
+msgid "Remove Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:209
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:210
+msgid "Promote to Mod"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:215
+msgid "Remove from group"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:244
+msgid "No group members were found."
+msgstr ""
+
+#: buddypress/groups/single/home.php:74
+msgid "[More]"
+msgstr ""
+
+#: buddypress/groups/single/home.php:74
+msgid "[Less]"
+msgstr ""
+
+#: buddypress/groups/single/home.php:113
+msgid "Group primary navigation"
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:62
+#: template-parts/header/friends-request.php:47
+#: woocommerce/wishlist-view.php:300
+msgid "Remove"
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:91
+msgid "Select friends to invite."
+msgstr ""
+
+#: buddypress/groups/single/members.php:109
+msgid "No members were found."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:18
+msgid "Group membership request form"
+msgstr ""
+
+#. translators: %s: group name
+#: buddypress/groups/single/request-membership.php:25
+msgid "You are requesting to become a member of the group \"%s\"."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:33
+msgid "Comments (optional)"
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:45
+msgctxt "button"
+msgid "Send Request"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:44
+#: buddypress/members/single/friends/requests.php:54
+#: buddypress/members/single/groups/invites.php:94
+#: template-parts/header/friends-request.php:46
+msgid "Accept"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:45
+#: buddypress/members/single/friends/requests.php:55
+#: buddypress/members/single/groups/invites.php:95
+msgid "Reject"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:62
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:19
+#: buddypress/groups/single/send-invites.php:52
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:25
+msgid "Send invites"
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:36
+msgid "Send Invites"
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:53
+msgid "Once you've made some friendships, you'll be able to invite those members to this group."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:61
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: buddypress/members/activate.php:47
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr ""
+
+#. translators: %s: login url
+#: buddypress/members/activate.php:55
+msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: buddypress/members/activate.php:62
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: buddypress/members/activate.php:66
+msgid "Activation Key:"
+msgstr ""
+
+#: buddypress/members/activate.php:70
+#: inc/class-socialv_tgm-plugin-activation.php:2823
+#: inc/class-tgm-plugin-activation.php:2822
+msgid "Activate"
+msgstr ""
+
+#: buddypress/members/index.php:66
+msgid "All Members"
+msgstr ""
+
+#: buddypress/members/index.php:69
+msgid "My Friends"
+msgstr ""
+
+#: buddypress/members/index.php:98
+msgid "Show By:"
+msgstr ""
+
+#: buddypress/members/index.php:101
+#: buddypress/members/single/friends.php:42
+msgid "Newest Registered"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/index.php:123
+msgid "Members directory"
+msgstr ""
+
+#: buddypress/members/members-loop.php:69
+#: buddypress/members/single/invitations/invitations-loop.php:27
+#: buddypress/members/single/invitations/send-invites.php:30
+#: buddypress/members/single/messages/compose.php:47
+#: buddypress/members/single/messages/single.php:136
+#: inc/Custom_Helper/Helpers/Members.php:1417
+#: inc/Custom_Helper/Helpers/Messages.php:41
+#: inc/Custom_Helper/Helpers/Messages.php:43
+#: inc/Custom_Helper/Helpers/Messages.php:56
+#: inc/Custom_Helper/Helpers/Messages.php:58
+msgid "Message"
+msgstr ""
+
+#: buddypress/members/members-loop.php:103
+#: buddypress/members/single/friends/friendships.php:104
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/register.php:49
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: buddypress/members/register.php:81
+#: inc/PMP/Component.php:219
+msgid "Account Details"
+msgstr ""
+
+#: buddypress/members/register.php:83
+#: buddypress/members/register.php:97
+#: buddypress/members/register.php:111
+#: buddypress/members/register.php:126
+#: buddypress/members/register.php:183
+#: buddypress/members/register.php:200
+#: buddypress/members/register.php:224
+#: buddypress/members/register.php:239
+#: buddypress/members/register.php:361
+#: buddypress/members/register.php:377
+#: buddypress/members/single/profile/edit.php:84
+#: buddypress/members/single/profile/edit.php:90
+#: buddypress/members/single/profile/edit.php:96
+#: buddypress/members/single/profile/edit.php:100
+#: buddypress/members/single/profile/edit.php:120
+#: buddypress/members/single/profile/edit.php:126
+#: buddypress/members/single/profile/edit.php:141
+#: buddypress/members/single/profile/edit.php:178
+msgid "(required)"
+msgstr ""
+
+#: buddypress/members/register.php:97
+#: buddypress/members/register.php:108
+msgid "Email Address"
+msgstr ""
+
+#: buddypress/members/register.php:111
+#: buddypress/members/register.php:122
+msgid "Choose a Password"
+msgstr ""
+
+#: buddypress/members/register.php:126
+#: buddypress/members/register.php:137
+#: learnpress/checkout/account-register.php:30
+msgid "Confirm Password"
+msgstr ""
+
+#: buddypress/members/register.php:171
+msgid "Profile Details"
+msgstr ""
+
+#: buddypress/members/register.php:230
+#: buddypress/members/single/profile/edit.php:132
+msgid "Clear"
+msgstr ""
+
+#: buddypress/members/register.php:250
+#: buddypress/members/single/profile/edit.php:155
+msgid "Day"
+msgstr ""
+
+#: buddypress/members/register.php:257
+#: buddypress/members/single/profile/edit.php:162
+msgid "Month"
+msgstr ""
+
+#: buddypress/members/register.php:264
+#: buddypress/members/single/profile/edit.php:169
+msgid "Year"
+msgstr ""
+
+#: buddypress/members/register.php:298
+#: buddypress/members/register.php:319
+#: buddypress/members/single/profile/edit.php:193
+#: buddypress/members/single/profile/edit.php:214
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: buddypress/members/register.php:303
+#: buddypress/members/single/profile/edit.php:198
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: buddypress/members/register.php:308
+#: buddypress/members/single/profile/edit.php:203
+msgid "Who can see this field?"
+msgstr ""
+
+#: buddypress/members/register.php:313
+#: buddypress/members/single/profile/edit.php:208
+#: inc/Custom_Helper/Helpers/Activity.php:597
+#: sidebar.php:20
+#: template-parts/header/navigation-mobile.php:17
+msgid "Close"
+msgstr ""
+
+#: buddypress/members/register.php:355
+msgid "Blog Details"
+msgstr ""
+
+#: buddypress/members/register.php:357
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: buddypress/members/register.php:361
+msgid "Blog URL"
+msgstr ""
+
+#: buddypress/members/register.php:377
+msgid "Site Title"
+msgstr ""
+
+#: buddypress/members/register.php:389
+msgid "Privacy: I would like my site to appear in search engines, and in public listings around this network."
+msgstr ""
+
+#: buddypress/members/register.php:399
+#: inc/Custom_Helper/Helpers/Members.php:1891
+#: inc/LearnPress/Component.php:262
+#: inc/Redux_Framework/Options/BpPage.php:57
+#: inc/Redux_Framework/Options/Breadcrumb.php:36
+#: inc/Redux_Framework/Options/Breadcrumb.php:100
+#: inc/Redux_Framework/Options/Breadcrumb.php:143
+#: inc/Redux_Framework/Options/BuddyPress.php:52
+#: inc/Redux_Framework/Options/BuddyPress.php:72
+#: inc/Redux_Framework/Options/BuddyPress.php:184
+#: inc/Redux_Framework/Options/Footer.php:93
+#: inc/Redux_Framework/Options/Footer.php:208
+#: inc/Redux_Framework/Options/General.php:179
+#: inc/Redux_Framework/Options/Header.php:200
+#: inc/Redux_Framework/Options/Loader.php:32
+#: inc/Redux_Framework/Options/PMP.php:35
+#: inc/Redux_Framework/Options/RestrictedMode.php:36
+#: inc/Redux_Framework/Options/RestrictedMode.php:103
+#: inc/Redux_Framework/Options/Typography.php:34
+#: inc/Redux_Framework/Options/Woocommerce.php:131
+#: inc/Redux_Framework/Options/Woocommerce.php:249
+#: inc/Redux_Framework/Options/Woocommerce.php:260
+#: inc/Redux_Framework/Options/Woocommerce.php:271
+#: inc/Redux_Framework/Options/Woocommerce.php:283
+#: inc/Redux_Framework/Options/Woocommerce.php:294
+#: inc/Redux_Framework/Options/Woocommerce.php:306
+#: learnpress/global/lp-modal-overlay.php:24
+msgid "Yes"
+msgstr ""
+
+#: buddypress/members/register.php:400
+#: inc/Custom_Helper/Helpers/Members.php:1892
+#: inc/Redux_Framework/Options/BpPage.php:58
+#: inc/Redux_Framework/Options/Breadcrumb.php:37
+#: inc/Redux_Framework/Options/Breadcrumb.php:101
+#: inc/Redux_Framework/Options/Breadcrumb.php:144
+#: inc/Redux_Framework/Options/BuddyPress.php:53
+#: inc/Redux_Framework/Options/BuddyPress.php:73
+#: inc/Redux_Framework/Options/BuddyPress.php:185
+#: inc/Redux_Framework/Options/Footer.php:94
+#: inc/Redux_Framework/Options/Footer.php:209
+#: inc/Redux_Framework/Options/General.php:180
+#: inc/Redux_Framework/Options/Header.php:201
+#: inc/Redux_Framework/Options/Loader.php:33
+#: inc/Redux_Framework/Options/PMP.php:36
+#: inc/Redux_Framework/Options/RestrictedMode.php:37
+#: inc/Redux_Framework/Options/RestrictedMode.php:104
+#: inc/Redux_Framework/Options/Typography.php:35
+#: inc/Redux_Framework/Options/Woocommerce.php:132
+#: inc/Redux_Framework/Options/Woocommerce.php:250
+#: inc/Redux_Framework/Options/Woocommerce.php:261
+#: inc/Redux_Framework/Options/Woocommerce.php:272
+#: inc/Redux_Framework/Options/Woocommerce.php:284
+#: inc/Redux_Framework/Options/Woocommerce.php:295
+#: inc/Redux_Framework/Options/Woocommerce.php:307
+#: learnpress/global/lp-modal-overlay.php:23
+msgid "No"
+msgstr ""
+
+#: buddypress/members/register.php:433
+msgid "Submit Request"
+msgstr ""
+
+#: buddypress/members/register.php:435
+msgid "Complete Sign Up"
+msgstr ""
+
+#: buddypress/members/register.php:474
+msgid "You have successfully submitted your membership request! Our site moderators will review your submission and send you an activation email if your request is approved."
+msgstr ""
+
+#: buddypress/members/register.php:476
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr ""
+
+#: buddypress/members/register.php:478
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
+
+#: buddypress/members/single/cover-image-header.php:75
+msgid "Reposition Cover Photo"
+msgstr ""
+
+#: buddypress/members/single/cover-image-header.php:81
+msgid "Drag to move cover photo"
+msgstr ""
+
+#: buddypress/members/single/cover-image-header.php:82
+msgid "Cover photo"
+msgstr ""
+
+#: buddypress/members/single/friends.php:14
+msgid "Member secondary navigation"
+msgstr ""
+
+#: buddypress/members/single/friends.php:39
+#: buddypress/members/single/groups.php:42
+#: inc/Custom_Helper/Helpers/Groups.php:251
+msgid "Order By:"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/friends.php:80
+msgid "My friends"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/friends.php:85
+#: buddypress/members/single/friends/friendships.php:25
+msgid "Friends"
+msgstr ""
+
+#: buddypress/members/single/friends/friendships.php:25
+msgid "Friend"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:24
+msgid "Friend Request"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:24
+msgid "Friends Requests"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:85
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/groups.php:90
+msgid "My groups"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/groups.php:95
+msgid "Member's groups"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/groups/invites.php:24
+msgid "Group invitations"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:118
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/invitations/invitations-loop.php:22
+#: buddypress/members/single/messages/messages-loop.php:46
+#: buddypress/members/single/notifications/notifications-loop.php:20
+msgid "Select all"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:26
+msgid "Invitee"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:28
+msgid "Sent"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:29
+msgid "Accepted"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:30
+msgid "Date Modified"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:31
+#: buddypress/members/single/messages/messages-loop.php:67
+#: buddypress/members/single/notifications/notifications-loop.php:24
+msgid "Actions"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/invitations/invitations-loop.php:46
+msgid "Select this invitation"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:68
+msgid "Select Bulk Action"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:73
+#: buddypress/members/single/messages/messages-loop.php:161
+#: buddypress/members/single/notifications/notifications-loop.php:53
+msgid "Bulk Actions"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:74
+msgctxt "button"
+msgid "Resend"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:75
+msgctxt "button"
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/members/single/invitations/invitations-loop.php:78
+msgctxt "button"
+msgid "Apply"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/invitations/list-invites.php:19
+msgid "Invitations"
+msgstr ""
+
+#: buddypress/members/single/invitations/list-invites.php:32
+msgid "There are no invitations to display."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/invitations/send-invites.php:13
+msgid "Send Invitations"
+msgstr ""
+
+#: buddypress/members/single/invitations/send-invites.php:22
+msgid "Fill out the form below to invite a new user to join this site. Upon submission of the form, an email will be sent to the invitee containing a link to accept your invitation. You may also add a custom message to the email."
+msgstr ""
+
+#: buddypress/members/single/invitations/send-invites.php:26
+msgid "Email address of new user"
+msgstr ""
+
+#: buddypress/members/single/invitations/send-invites.php:31
+msgid "Add a personalized message to the invitation (optional)"
+msgstr ""
+
+#: buddypress/members/single/invitations/send-invites.php:39
+msgid "Send Invitation"
+msgstr ""
+
+#: buddypress/members/single/invitations/send-invites.php:52
+msgid "Sorry, you are not allowed to send invitations."
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/messages/compose.php:14
+msgid "Compose Message"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:32
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:37
+msgid "This is a notice to all users."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:41
+#: buddypress/members/single/messages/compose.php:42
+#: buddypress/members/single/messages/messages-loop.php:49
+msgid "Subject"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:46
+#: learnpress/addons/course-review/review-form.php:33
+msgid "Content"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:62
+msgid "Send Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:48
+msgid "From"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/messages/messages-loop.php:79
+msgid "Select this message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:108
+msgid "View Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:132
+#: inc/Custom_Helper/Helpers/Members.php:1233
+msgid "Make as Read"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:134
+#: inc/Custom_Helper/Helpers/Members.php:1228
+msgid "Make as Unread"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:162
+#: buddypress/members/single/notifications/notifications-loop.php:56
+msgid "Mark read"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:163
+#: buddypress/members/single/notifications/notifications-loop.php:58
+msgid "Mark unread"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:169
+#: buddypress/members/single/notifications/notifications-loop.php:62
+msgid "Apply"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:204
+#: template-parts/header/messages.php:79
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:53
+msgid "Sent:"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:67
+msgid "Delete Message"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:90
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:31
+msgid "You are alone in this conversation."
+msgstr ""
+
+#. translators: %s: message recipients count
+#: buddypress/members/single/messages/single.php:37
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#. translators: %s: message recipients list
+#: buddypress/members/single/messages/single.php:44
+msgid "Conversation between %s."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:56
+msgid "Exit Conversation"
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:116
+msgid "Send a Reply"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/messages/single.php:140
+msgid "Reply to Message"
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:155
+msgid "Send Reply"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:22
+msgid "Notification"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:23
+msgid "Date Received"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/notifications/notifications-loop.php:37
+msgid "Select this notification"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/notifications/read.php:17
+#: inc/Custom_Helper/Helpers/Members.php:766
+#: template-parts/header/notifications.php:45
+#: template-parts/header/notifications.php:54
+msgid "Notifications"
+msgstr ""
+
+#. translators: accessibility text
+#: buddypress/members/single/notifications/unread.php:16
+msgid "Unread notifications"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:19
+#: buddypress/members/single/profile/change-cover-image.php:19
+#: buddypress/members/single/profile/edit.php:26
+#: buddypress/members/single/settings.php:21
+msgid "Profile Setting"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:36
+#: buddypress/members/single/profile/change-cover-image.php:36
+#: buddypress/members/single/profile/edit.php:43
+#: buddypress/members/single/settings.php:38
+#: inc/Custom_Helper/Helpers/Members.php:840
+#: inc/Custom_Helper/Helpers/Members.php:1546
+#: inc/Custom_Helper/Helpers/Members.php:1552
+msgid "Account Settings"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:54
+msgid "Change Avatar Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:66
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:79
+msgid "If you'd like to delete your current profile photo but not upload a new one, please use the delete profile photo button."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:80
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:87
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:112
+msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, please create an account with using the same email address as you used to register with this site."
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:54
+msgid "Change Cover Image"
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:63
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:17
+msgid "Data Export"
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:28
+msgid "Your request for an export of personal data has been completed."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:31
+msgid "You may download your personal data by clicking on the link below. For privacy and security, we will automatically delete the file on %s, so please download it before then."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:35
+msgid "Download personal data"
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:39
+msgid "Your previous request for an export of personal data has expired."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:40
+msgid "Please click on the button below to make a new request."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:44
+msgid "Request new data export"
+msgstr ""
+
+#. translators: %s: confirmation date
+#: buddypress/members/single/settings/data.php:54
+msgid "You previously requested an export of your personal data on %s."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:57
+msgid "You will receive a link to download your export via email once we are able to fulfill your request."
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:63
+msgid "You can request an export of your personal data, containing the following items if applicable:"
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:67
+msgid "If you want to make a request, please click on the button below:"
+msgstr ""
+
+#: buddypress/members/single/settings/data.php:70
+msgid "Request personal data export"
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:17
+msgid "Deleting your account will delete all of the content you have created. It will be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:21
+msgid "Deleting this account will delete all of the content it has created. It will be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:40
+msgid "I understand the consequences."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:45
+#: inc/Custom_Helper/Helpers/Members.php:936
+msgid "Delete Account"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:23
+msgid "Account settings"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:28
+#: buddypress/members/single/settings/general.php:29
+msgid "Account Email"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:33
+#: buddypress/members/single/settings/general.php:34
+msgid "Current Password (required to update email or change current password)"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:38
+#: buddypress/members/single/settings/general.php:39
+msgid "Change Password (leave blank for no change)"
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:21
+msgid "Notification settings"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:22
+msgid "Profile visibility settings"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:37
+msgid "Visibility"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:72
+msgid "Save Settings"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:57
+#: comments.php:59
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:60
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:63
+msgid "Comment*"
+msgstr ""
+
+#: comments.php:70
+#: comments.php:71
+msgid "Name*"
+msgstr ""
+
+#: comments.php:76
+#: comments.php:77
+msgid "Email*"
+msgstr ""
+
+#: comments.php:89
+#: woocommerce/single-product-reviews.php:133
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: gamipress/achievement.php:202
+#: inc/class-socialv_tgm-plugin-activation.php:3606
+#: inc/class-socialv_tgm-plugin-activation.php:3614
+#: inc/class-tgm-plugin-activation.php:3605
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: gamipress/achievement.php:202
+#: inc/class-socialv_tgm-plugin-activation.php:3606
+#: inc/class-socialv_tgm-plugin-activation.php:3614
+#: inc/class-tgm-plugin-activation.php:3605
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "Hide Details"
+msgstr ""
+
+#: gamipress/achievements.php:19
+msgid "Achievements"
+msgstr ""
+
+#: gamipress/achievements.php:25
+msgid "There have no badges"
+msgstr ""
+
+#: gamipress/achievements.php:62
+msgid "Filter:"
+msgstr ""
+
+#: gamipress/achievements.php:66
+msgid "All %s"
+msgstr ""
+
+#: gamipress/achievements.php:67
+msgid "Completed %s"
+msgstr ""
+
+#: gamipress/achievements.php:68
+msgid "Not Completed %s"
+msgstr ""
+
+#: gamipress/achievements.php:111
+msgid "Go"
+msgstr ""
+
+#: gamipress/achievements.php:116
+msgid "Search:"
+msgstr ""
+
+#: gamipress/achievements.php:165
+msgid "Load More"
+msgstr ""
+
+#: inc/Accessibility/Component.php:66
+msgid "Expand child menu"
+msgstr ""
+
+#: inc/Accessibility/Component.php:67
+msgid "Collapse child menu"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: inc/back-compat.php:25
+msgid "SocialV requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: inc/back-compat.php:30
+msgid "SocialV requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: inc/back-compat.php:35
+msgid "SocialV requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:165
+#: inc/Custom_Helper/Helpers/Media.php:307
+msgid "Search"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:167
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:215
+msgid "banner"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:234
+#: inc/Custom_Helper/Helpers/Members.php:672
+#: template-parts/breadcrumb/breadcrumb.php:26
+msgid "Home"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:246
+msgid "Blogs"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:250
+msgid "Archive by category : "
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:252
+msgid "Search results for : "
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:313
+msgid "Posts tagged"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:317
+msgid "Articles posted by : "
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:319
+msgid "Error 404"
+msgstr ""
+
+#: inc/Breadcrumb/Component.php:323
+msgid "Page"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:346
+#: inc/class-tgm-plugin-activation.php:345
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:347
+#: inc/class-tgm-plugin-activation.php:346
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:349
+#: inc/class-tgm-plugin-activation.php:348
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:351
+#: inc/class-tgm-plugin-activation.php:350
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:352
+#: inc/class-tgm-plugin-activation.php:351
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:353
+#: inc/class-tgm-plugin-activation.php:352
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:359
+#: inc/class-tgm-plugin-activation.php:358
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:365
+#: inc/class-tgm-plugin-activation.php:364
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:371
+#: inc/class-tgm-plugin-activation.php:370
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:377
+#: inc/class-tgm-plugin-activation.php:376
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-socialv_tgm-plugin-activation.php:383
+#: inc/class-tgm-plugin-activation.php:382
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:389
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:393
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:399
+#: inc/class-tgm-plugin-activation.php:398
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:404
+#: inc/class-tgm-plugin-activation.php:403
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:405
+#: inc/class-socialv_tgm-plugin-activation.php:924
+#: inc/class-socialv_tgm-plugin-activation.php:2630
+#: inc/class-socialv_tgm-plugin-activation.php:3677
+#: inc/class-tgm-plugin-activation.php:404
+#: inc/class-tgm-plugin-activation.php:923
+#: inc/class-tgm-plugin-activation.php:2629
+#: inc/class-tgm-plugin-activation.php:3676
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:406
+#: inc/class-socialv_tgm-plugin-activation.php:3256
+#: inc/class-tgm-plugin-activation.php:405
+#: inc/class-tgm-plugin-activation.php:3255
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:407
+#: inc/class-socialv_tgm-plugin-activation.php:3049
+#: inc/class-tgm-plugin-activation.php:406
+#: inc/class-tgm-plugin-activation.php:3048
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:409
+#: inc/class-tgm-plugin-activation.php:408
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:411
+#: inc/class-tgm-plugin-activation.php:410
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-socialv_tgm-plugin-activation.php:413
+#: inc/class-tgm-plugin-activation.php:412
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:414
+#: inc/class-tgm-plugin-activation.php:413
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:415
+#: inc/class-tgm-plugin-activation.php:414
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:416
+#: inc/class-tgm-plugin-activation.php:415
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:619
+#: inc/class-tgm-plugin-activation.php:618
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:620
+#: inc/class-tgm-plugin-activation.php:619
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:1031
+#: inc/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:1031
+#: inc/class-socialv_tgm-plugin-activation.php:1034
+#: inc/class-tgm-plugin-activation.php:1030
+#: inc/class-tgm-plugin-activation.php:1033
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:1034
+#: inc/class-tgm-plugin-activation.php:1033
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:1218
+#: inc/class-socialv_tgm-plugin-activation.php:3045
+#: inc/class-tgm-plugin-activation.php:1217
+#: inc/class-tgm-plugin-activation.php:3044
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-socialv_tgm-plugin-activation.php:2079
+#: inc/class-tgm-plugin-activation.php:2078
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2370
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Required"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2373
+#: inc/class-tgm-plugin-activation.php:2372
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2389
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2392
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "External Source"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2395
+#: inc/class-tgm-plugin-activation.php:2394
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2412
+#: inc/class-tgm-plugin-activation.php:2411
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2416
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2418
+#: inc/class-tgm-plugin-activation.php:2417
+msgid "Active"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2424
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2427
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2430
+#: inc/class-tgm-plugin-activation.php:2429
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-socialv_tgm-plugin-activation.php:2439
+#: inc/class-tgm-plugin-activation.php:2438
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-socialv_tgm-plugin-activation.php:2485
+#: inc/class-tgm-plugin-activation.php:2484
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-socialv_tgm-plugin-activation.php:2489
+#: inc/class-tgm-plugin-activation.php:2488
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-socialv_tgm-plugin-activation.php:2493
+#: inc/class-tgm-plugin-activation.php:2492
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-socialv_tgm-plugin-activation.php:2497
+#: inc/class-tgm-plugin-activation.php:2496
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2579
+#: inc/class-tgm-plugin-activation.php:2578
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2587
+#: inc/class-tgm-plugin-activation.php:2586
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2595
+#: inc/class-tgm-plugin-activation.php:2594
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2607
+#: inc/class-tgm-plugin-activation.php:2606
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2630
+#: inc/class-tgm-plugin-activation.php:2629
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2644
+#: inc/class-tgm-plugin-activation.php:2643
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2645
+#: inc/class-tgm-plugin-activation.php:2644
+msgid "Source"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2646
+#: inc/class-tgm-plugin-activation.php:2645
+#: mediapress/default/gallery/create.php:44
+#: mediapress/default/shortcodes/create-gallery.php:60
+msgid "Type"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2650
+#: inc/class-tgm-plugin-activation.php:2649
+msgid "Version"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2651
+#: inc/class-tgm-plugin-activation.php:2650
+#: mediapress/default/gallery/create.php:49
+#: mediapress/default/shortcodes/create-gallery.php:68
+#: paid-memberships-pro/pages/account.php:246
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-socialv_tgm-plugin-activation.php:2700
+#: inc/class-tgm-plugin-activation.php:2699
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-socialv_tgm-plugin-activation.php:2705
+#: inc/class-tgm-plugin-activation.php:2704
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-socialv_tgm-plugin-activation.php:2711
+#: inc/class-tgm-plugin-activation.php:2710
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2781
+#: inc/class-tgm-plugin-activation.php:2780
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2814
+#: inc/class-tgm-plugin-activation.php:2813
+msgid "Install"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2854
+#: inc/class-tgm-plugin-activation.php:2853
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2856
+#: inc/class-tgm-plugin-activation.php:2855
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2897
+#: inc/class-tgm-plugin-activation.php:2896
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:2899
+#: inc/class-tgm-plugin-activation.php:2898
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3005
+#: inc/class-tgm-plugin-activation.php:3004
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3031
+#: inc/class-tgm-plugin-activation.php:3030
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3255
+#: inc/class-tgm-plugin-activation.php:3254
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-socialv_tgm-plugin-activation.php:3595
+#: inc/class-tgm-plugin-activation.php:3594
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-socialv_tgm-plugin-activation.php:3598
+#: inc/class-tgm-plugin-activation.php:3597
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:3600
+#: inc/class-tgm-plugin-activation.php:3599
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3604
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:3606
+#: inc/class-tgm-plugin-activation.php:3605
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3607
+#: inc/class-tgm-plugin-activation.php:3606
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-socialv_tgm-plugin-activation.php:3609
+#: inc/class-tgm-plugin-activation.php:3608
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3612
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-socialv_tgm-plugin-activation.php:3614
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-socialv_tgm-plugin-activation.php:3615
+#: inc/class-tgm-plugin-activation.php:3614
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-socialv_tgm-plugin-activation.php:3617
+#: inc/class-tgm-plugin-activation.php:3616
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/Comments/Component.php:153
+msgid "New comment(s)"
+msgstr ""
+
+#: inc/Comments/Component.php:208
+msgid "(Edit)"
+msgstr ""
+
+#: inc/Comments/Component.php:231
+#: woocommerce/myaccount/my-address.php:58
+msgid "Edit"
+msgstr ""
+
+#: inc/Comments/Component.php:239
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/Common/Component.php:109
+#: inc/Scripts/Component.php:93
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: inc/Common/Component.php:258
+msgid "%s"
+msgstr ""
+
+#: inc/Common/Component.php:319
+#: inc/PMP/Component.php:193
+msgid "socialv"
+msgstr ""
+
+#: inc/Customizer/Component.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:168
+msgid "User shared activity"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:170
+msgid "Activity Shared"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:550
+msgid "Upload photo"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:553
+msgid "Photos"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:559
+msgid "Upload audio"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:562
+msgid "Audios"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:568
+msgid "Upload video"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:571
+msgid "Videos"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:577
+msgid "Upload document"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:580
+msgid "Documents"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:624
+#: inc/Custom_Helper/Helpers/Media.php:329
+msgid "Enter a link"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:708
+#: inc/Custom_Helper/Helpers/Activity.php:1152
+msgid "Add Favorite"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:714
+#: inc/Custom_Helper/Helpers/Activity.php:1154
+msgid "Remove Favorite"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:724
+#: inc/Custom_Helper/Helpers/Activity.php:725
+#: inc/Custom_Helper/Helpers/Activity.php:728
+msgid "Unpin"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:724
+#: inc/Custom_Helper/Helpers/Activity.php:728
+#: inc/Custom_Helper/Helpers/Activity.php:729
+msgid "Pin to Top"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:743
+msgid "Hide Post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:748
+msgid "Activity deleted successfully"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:917
+msgid "Status Image"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:953
+#: woocommerce/share.php:51
+msgid "Facebook"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:959
+#: woocommerce/share.php:59
+msgid "Twitter"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:965
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:971
+#: woocommerce/share.php:67
+msgid "Pinterest"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:978
+msgid "Share on activity"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1183
+msgid "Liked by "
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1188
+msgid " And "
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1191
+msgid " Others"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1191
+msgid " Other"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1208
+msgid "People Who like this post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1305
+msgid "Choose a gif"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1305
+msgid "Gif"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1341
+msgid "&hellip;"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1367
+msgid "View Post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1383
+msgid "Post hidden"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1384
+msgid "You won't see this post in your Feed."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1388
+msgid "undo"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1397
+msgid "Report Post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Activity.php:1398
+msgid "I'm concerned about this post."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:66
+msgid " shared his post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:68
+msgid "shared %s post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:127
+msgid "No Member Found"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:158
+msgid "No Group Found"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:191
+msgid "No Post Found"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:214
+#: template-parts/wocommerce/entry-listing.php:47
+#: template-parts/wocommerce/entry.php:44
+#: woocommerce/single-product/product-image.php:66
+msgid "Awaiting product image"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:229
+msgid "No Product Found"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:269
+msgid "No Course Found"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:281
+msgid "Id not present"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:292
+#: inc/Custom_Helper/Helpers/Ajax.php:312
+msgid "Post is now visible"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:297
+#: inc/Custom_Helper/Helpers/Ajax.php:304
+msgid "Post is now hidden"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Ajax.php:315
+msgid "Post was not hidden"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:63
+msgctxt "site_login_desc"
+msgid "%s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:70
+msgctxt "site_register_desc"
+msgid "%s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:77
+msgctxt "site_forgetpwd_desc"
+msgid "%s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:96
+#: inc/Custom_Helper/Helpers/Common.php:104
+msgid "Already have an account?"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:96
+#: inc/Custom_Helper/Helpers/Common.php:104
+#: inc/Redux_Framework/Options/Header.php:211
+#: inc/Redux_Framework/Options/Header.php:234
+#: template-parts/header/user.php:61
+#: woocommerce/global/form-login.php:52
+#: woocommerce/global/form-login.php:53
+#: woocommerce/myaccount/form-login.php:37
+msgid "Login"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:100
+#: learnpress/checkout/account-login.php:48
+msgid "Don't have an account?"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:100
+msgid "Sign Up"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:146
+msgid "or"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:296
+msgid "Member Directory"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:298
+msgid "Group Directory"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:309
+msgid "Our Badges"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:311
+msgid "Our levels"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:313
+msgid "Our Forums"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:385
+msgid "Favorite"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Common.php:386
+msgid "Unfavorite"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/CustomNotifications.php:87
+msgid " And %d more users"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/CustomNotifications.php:92
+msgid " liked your post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/CustomNotifications.php:97
+msgid " shared your post"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/CustomNotifications.php:102
+msgid "%s created new topic to %s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/CustomNotifications.php:107
+msgid "%s replied to %s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:84
+#: inc/Custom_Helper/Helpers/Groups.php:90
+msgid "Error joining group"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:92
+#: inc/Custom_Helper/Helpers/Groups.php:106
+msgid "Leave Group"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:98
+msgid "Error accepting invitation"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:104
+#: inc/Custom_Helper/Helpers/Groups.php:114
+msgid "Error requesting membership"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:116
+msgid "Request Sent"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:124
+msgid "Error leaving group"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:126
+msgid "Join Group"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:128
+msgid "Request Membership"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:253
+msgid "Newest"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:254
+msgid "Oldest"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:257
+msgid "Group Activity"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:287
+#: inc/Custom_Helper/Helpers/Members.php:641
+#: inc/Notice/Component.php:206
+msgid "Media"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:309
+msgid "Manage Group"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:320
+msgid "Public"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:322
+msgid "Hidden"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:324
+msgid "Private"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Groups.php:379
+msgid "<h5>This Group is Private</h5><p>Join this group to view or participate in discussions.</p>"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:85
+msgid "My Galleries"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:90
+#: inc/Custom_Helper/Helpers/Members.php:644
+#: inc/Custom_Helper/Helpers/Members.php:1675
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:100
+msgid "delete %3$s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:144
+msgid "Action not authorized!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:159
+msgid "You don't have permission to create gallery!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:177
+msgid "Invalid Gallery status!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:181
+msgid "Invalid gallery type!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:186
+msgid "Invalid action!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:190
+msgid "Title can not be empty"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:221
+msgid "Unable to create gallery!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:234
+msgid "Gallery created successfully!"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Media.php:288
+#: inc/Custom_Helper/Helpers/Media.php:293
+msgid "img"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:176
+#: inc/Custom_Helper/Helpers/Members.php:245
+msgid "No member found by that ID."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:184
+msgid "Friend could not be canceled."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:186
+#: inc/Custom_Helper/Helpers/Members.php:204
+#: inc/Custom_Helper/Helpers/Members.php:382
+#: inc/Custom_Helper/Helpers/Members.php:383
+msgid "Add Friend"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:194
+msgid " Friend could not be requested."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:196
+#: inc/Custom_Helper/Helpers/Members.php:331
+#: inc/Custom_Helper/Helpers/Members.php:332
+msgid "Cancel Request"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:206
+msgid "Friend request could not be cancelled."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:211
+msgid "Request Pending"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:222
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:259
+msgid "There was a problem accepting that request. Please try again."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:268
+msgid "Friendship accepted."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:283
+msgid "There was a problem rejecting that request. Please try again."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:292
+msgid "Friendship rejected."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:348
+#: inc/Custom_Helper/Helpers/Members.php:349
+msgid "Accept Request"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:365
+#: inc/Custom_Helper/Helpers/Members.php:366
+msgid "Unfriend"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:447
+msgid "online"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:450
+msgid "offline"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:618
+msgid "Timeline"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:622
+msgid "About"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:635
+msgid "All Update"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:651
+#: inc/Redux_Framework/Options/RestrictedMode.php:88
+#: template-parts/header/search.php:56
+msgid "Courses"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:678
+msgid "View Profile"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:684
+#: template-parts/header/messages.php:13
+#: template-parts/header/messages.php:24
+msgid "Messages"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:690
+msgid "Profile Avatar"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:696
+msgid "Profile Cover"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:703
+msgid "Logout"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:730
+msgid "Member since %1$s"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:773
+msgid "Email & Password"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:918
+msgid "Capabilities Settings"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:928
+msgid "Export Data"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:959
+msgid "Someone accepts your membership invitation"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:980
+msgctxt "Member settings on notification settings page"
+msgid "Someone has requested site membership"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1008
+msgid "Mentions Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1023
+msgid "Replies Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1041
+msgid "Reaction Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1041
+msgid "Like Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1059
+msgid "Share on activity Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1081
+msgid "Messages Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1106
+msgid "Friendship Requested Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1120
+msgid "Friendship Accepted Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1154
+msgid "Group Invitations Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1168
+msgid "Group information Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1182
+msgid "Group Admin Promotion Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1196
+msgid "Join Group Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1210
+msgid "Group Membership Request Notifications"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1286
+msgid "Change Profile Photo"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1368
+msgid "<h5>%1$s</h5> Comment"
+msgid_plural "<h5>%1$s</h5> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1373
+msgid "Views"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1429
+msgid "Resend"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1457
+msgid "People who have earned this"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1500
+#: template-parts/content/entry_levels.php:45
+msgid "People who have this rank:"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1562
+#: inc/Custom_Helper/Helpers/Members.php:1632
+msgid "Profile Settings"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1572
+msgid "Change Avatar"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1583
+#: paid-memberships-pro/pages/account.php:80
+msgid "Change Password"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1591
+msgid "Profile Info"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1676
+msgid "In Progress"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1677
+msgid "Finished"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1721
+#: inc/Custom_Helper/Helpers/Members.php:1739
+#: inc/Custom_Helper/Helpers/Members.php:1757
+msgid "No Courses Available"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1812
+msgid "post-img"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1839
+#: learnpress/single-course/sidebar/user-progress.php:34
+msgid "Passing condition: %s%%"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1882
+msgid "Unlock"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1890
+msgid "Do you want to unlock %s using %s?"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1916
+msgid "Post to activity stream all reviews written by me"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1930
+msgid "Post to activity stream all purchases I've made"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:1981
+msgid "Privacy and security"
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:2058
+msgid "Your notification settings have been saved."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:2060
+msgid "This user's notification settings have been saved."
+msgstr ""
+
+#: inc/Custom_Helper/Helpers/Members.php:2076
+msgid "<h5>%s locked his profile</h5><p>Only his friends can see what he shares on his profile.</p>"
+msgstr ""
+
+#: inc/Editor/Component.php:65
+#: inc/Nav_Menus/Component.php:76
+#: template-parts/footer/frontend-customizer.php:96
+msgid "Primary"
+msgstr ""
+
+#: inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: inc/Footer/Component.php:93
+msgid "text-start"
+msgstr ""
+
+#: inc/Footer/Component.php:94
+msgid "text-end"
+msgstr ""
+
+#: inc/Footer/Component.php:95
+msgid "text-center"
+msgstr ""
+
+#: inc/Footer/Component.php:103
+msgid "Footer Area "
+msgstr ""
+
+#: inc/import.php:10
+msgid "All Content"
+msgstr ""
+
+#: inc/import.php:22
+msgid "DEMO IMPORT REQUIREMENTS: Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds. "
+msgstr ""
+
+#: inc/import.php:22
+msgid "Based on your INTERNET SPEED it could take 5 to 25 minutes. "
+msgstr ""
+
+#: inc/Layouts/Component.php:65
+msgid "Setup header layout"
+msgstr ""
+
+#: inc/Layouts/Component.php:68
+msgid "Setup footer layout"
+msgstr ""
+
+#: inc/Layouts/Component.php:71
+msgid "Setup menu layout"
+msgstr ""
+
+#: inc/Layouts/Component.php:74
+msgid "Setup 404 page layout"
+msgstr ""
+
+#: inc/LearnPress/Component.php:151
+#: learnpress/addons/course-review/rating-stars.php:17
+msgid "%s out of 5 stars"
+msgstr ""
+
+#: inc/LearnPress/Component.php:186
+msgid "Review"
+msgstr ""
+
+#: inc/LearnPress/Component.php:190
+msgid "(%1$s rating)"
+msgid_plural "(%1$s ratings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/LearnPress/Component.php:213
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/LearnPress/Component.php:217
+msgid "%d student"
+msgid_plural "%d students"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/LearnPress/Component.php:241
+msgid "The Course Includes:"
+msgstr ""
+
+#: inc/LearnPress/Component.php:245
+msgid "Detailed Lessons"
+msgstr ""
+
+#: inc/LearnPress/Component.php:249
+msgid "Quizzes after"
+msgstr ""
+
+#: inc/LearnPress/Component.php:253
+msgid "Of the enitre courses"
+msgstr ""
+
+#: inc/LearnPress/Component.php:253
+msgid "Of The Entire Course"
+msgstr ""
+
+#: inc/LearnPress/Component.php:258
+msgid "Students participated"
+msgstr ""
+
+#: inc/LearnPress/Component.php:262
+msgid "Assessments"
+msgstr ""
+
+#: inc/LearnPress/Component.php:262
+msgid "Self"
+msgstr ""
+
+#: inc/LearnPress/Component.php:271
+#: learnpress/single-course/tabs/curriculum-v2.php:39
+msgid "Curriculum is empty"
+msgstr ""
+
+#: inc/LearnPress/Component.php:287
+msgid "Overview"
+msgstr ""
+
+#: inc/LearnPress/Component.php:294
+msgid "Curriculum"
+msgstr ""
+
+#: inc/LearnPress/Component.php:300
+msgid "Instructor"
+msgstr ""
+
+#: inc/LearnPress/Component.php:307
+msgid "FAQs"
+msgstr ""
+
+#: inc/Nav_Menus/Component.php:81
+msgid "Side Menu"
+msgstr ""
+
+#: inc/Notice/Component.php:102
+#: inc/TGM/Component.php:158
+msgid "Iqonic Extensions"
+msgstr ""
+
+#: inc/Notice/Component.php:105
+#: inc/TGM/Component.php:164
+msgid "Iqonic Moderation Tool"
+msgstr ""
+
+#: inc/Notice/Component.php:108
+#: inc/TGM/Component.php:170
+msgid "Iqonic Reactions"
+msgstr ""
+
+#: inc/Notice/Component.php:134
+msgid "The following required plugins are not installed: "
+msgstr ""
+
+#: inc/Notice/Component.php:137
+msgid "Please install the required plugins from the following link: "
+msgstr ""
+
+#: inc/Notice/Component.php:138
+msgid "Click Here To Install Plugin"
+msgstr ""
+
+#: inc/Notice/Component.php:146
+msgid "We have updates available in our plugins."
+msgstr ""
+
+#: inc/Notice/Component.php:147
+msgid "Check Here - How To Update Plugin"
+msgstr ""
+
+#: inc/Notice/Component.php:150
+#: inc/Redux_Framework/Options/SideArea.php:36
+msgid "Note:"
+msgstr ""
+
+#: inc/Notice/Component.php:150
+msgid "Prior to updating, please make sure to backup previous versions of the plugin in case you have made any custom code changes."
+msgstr ""
+
+#: inc/Notice/Component.php:151
+msgid "Click here"
+msgstr ""
+
+#: inc/Notice/Component.php:159
+#: inc/Notice/Component.php:174
+#: inc/Notice/Component.php:216
+#: inc/Notice/Component.php:261
+msgid "Dismiss"
+msgstr ""
+
+#: inc/Notice/Component.php:171
+msgid "sale-banner"
+msgstr ""
+
+#: inc/Notice/Component.php:200
+msgid "Get MediaPress plugin settings similar to SocialV Theme Demo."
+msgstr ""
+
+#: inc/Notice/Component.php:205
+msgid "Import MediaPress Setting"
+msgstr ""
+
+#: inc/Notice/Component.php:245
+msgid "Get better messaging plugin settings similar to SocialV Theme Demo."
+msgstr ""
+
+#: inc/Notice/Component.php:250
+msgid "Import Better Messages Setting"
+msgstr ""
+
+#: inc/Notice/Component.php:251
+msgid "Chat"
+msgstr ""
+
+#: inc/Notice/Component.php:302
+msgid "You have successfully set your MediaPress setting same as SocialV Theme Demo."
+msgstr ""
+
+#: inc/Notice/Component.php:309
+msgid "You have successfully set your Better Messages setting same as SocialV Theme Demo."
+msgstr ""
+
+#: inc/Notice/Component.php:348
+msgid "Warning: Are you sure you want to replace your default setting with SocialV Theme Setting?"
+msgstr ""
+
+#: inc/PMP/Component.php:90
+#: woocommerce/global/form-login.php:44
+#: woocommerce/myaccount/form-login.php:50
+msgid "Remember Me"
+msgstr ""
+
+#: inc/PMP/Component.php:96
+msgid "Forgot Password?"
+msgstr ""
+
+#: inc/PMP/Component.php:213
+msgid "Select Plan"
+msgstr ""
+
+#: inc/PMP/Component.php:225
+msgid "Order Summary"
+msgstr ""
+
+#: inc/Redux_Framework/Component.php:192
+#: inc/Redux_Framework/Component.php:193
+msgid "SocialV Options"
+msgstr ""
+
+#: inc/Redux_Framework/fields/dimensions/class-redux-dimensions.php:149
+msgid "Width"
+msgstr ""
+
+#: inc/Redux_Framework/fields/dimensions/class-redux-dimensions.php:181
+msgid "Height"
+msgstr ""
+
+#: inc/Redux_Framework/fields/dimensions/class-redux-dimensions.php:203
+#: inc/Redux_Framework/fields/dimensions/class-redux-dimensions.php:211
+#: inc/Redux_Framework/fields/dimensions/class-redux-dimensions.php:213
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:294
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:298
+msgid "Units"
+msgstr ""
+
+#: inc/Redux_Framework/fields/media/class-redux-media.php:92
+msgid "No media selected"
+msgstr ""
+
+#: inc/Redux_Framework/fields/media/class-redux-media.php:253
+msgid "Upload or browse a file"
+msgstr ""
+
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:223
+msgid "Top"
+msgstr ""
+
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:242
+msgid "Bottom"
+msgstr ""
+
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:261
+msgid "Right"
+msgstr ""
+
+#: inc/Redux_Framework/fields/spacing/class-redux-spacing.php:280
+msgid "Left"
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:21
+msgid "Additional Code"
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:24
+msgid "This section contains options for header."
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:25
+msgid "Extra"
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:31
+msgid "CSS Code"
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:33
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:39
+msgid "JS Code"
+msgstr ""
+
+#: inc/Redux_Framework/Options/AdditionalCode.php:42
+msgid "Paste your custom JS code here."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BbPress.php:25
+#: inc/Redux_Framework/Options/RestrictedMode.php:90
+msgid "Forums"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BbPress.php:32
+msgid "Check this option to show the user forums on a profile tab."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BbPress.php:33
+msgid "Enable Profile Forum Tab"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:25
+msgid "Blog"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:32
+msgid "General Blogs"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:36
+msgid "This section contains options for blog."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:42
+msgid "Blog page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:43
+msgid "Choose among these structures (Right Sidebar, Left Sidebar, 1column, 2column and 3column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:46
+msgid "One column"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:51
+#: inc/Redux_Framework/Options/Woocommerce.php:72
+msgid "Two column"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:56
+#: inc/Redux_Framework/Options/Woocommerce.php:77
+msgid "Three column"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:61
+#: inc/Redux_Framework/Options/Blog.php:118
+#: inc/Redux_Framework/Options/BpPage.php:32
+#: inc/Redux_Framework/Options/LearnPress.php:42
+#: inc/Redux_Framework/Options/Page.php:38
+#: inc/Redux_Framework/Options/Woocommerce.php:67
+#: inc/Redux_Framework/Options/Woocommerce.php:96
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:66
+#: inc/Redux_Framework/Options/Blog.php:123
+#: inc/Redux_Framework/Options/BpPage.php:37
+#: inc/Redux_Framework/Options/LearnPress.php:47
+#: inc/Redux_Framework/Options/Page.php:43
+#: inc/Redux_Framework/Options/Woocommerce.php:62
+#: inc/Redux_Framework/Options/Woocommerce.php:91
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:78
+msgid "Blog Page Default Banner Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:81
+msgid "Upload banner image for your Website. Otherwise blank field will be displayed in place of this section."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:81
+msgid "(Note:Only Display Banner Style Second & Third in Page Banner Setting)"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:82
+msgid " Upload your blog banner image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:88
+msgid "Pagination"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:89
+msgid "Turn on to display pagination for the blog page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:91
+#: inc/Redux_Framework/Options/Blog.php:137
+#: inc/Redux_Framework/Options/BuddyPress.php:135
+#: inc/Redux_Framework/Options/BuddyPress.php:148
+#: inc/Redux_Framework/Options/BuddyPress.php:230
+#: inc/Redux_Framework/Options/BuddyPress.php:241
+#: inc/Redux_Framework/Options/BuddyPress.php:252
+#: inc/Redux_Framework/Options/BuddyPress.php:263
+#: inc/Redux_Framework/Options/BuddyPress.php:274
+#: inc/Redux_Framework/Options/Header.php:115
+#: inc/Redux_Framework/Options/Header.php:150
+#: inc/Redux_Framework/Options/Header.php:163
+#: inc/Redux_Framework/Options/Header.php:176
+#: inc/Redux_Framework/Options/Header.php:221
+#: inc/Redux_Framework/Options/SideArea.php:47
+msgid "On"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:92
+#: inc/Redux_Framework/Options/Blog.php:138
+#: inc/Redux_Framework/Options/BuddyPress.php:136
+#: inc/Redux_Framework/Options/BuddyPress.php:149
+#: inc/Redux_Framework/Options/BuddyPress.php:231
+#: inc/Redux_Framework/Options/BuddyPress.php:242
+#: inc/Redux_Framework/Options/BuddyPress.php:253
+#: inc/Redux_Framework/Options/BuddyPress.php:264
+#: inc/Redux_Framework/Options/BuddyPress.php:275
+#: inc/Redux_Framework/Options/Header.php:116
+#: inc/Redux_Framework/Options/Header.php:151
+#: inc/Redux_Framework/Options/Header.php:164
+#: inc/Redux_Framework/Options/Header.php:177
+#: inc/Redux_Framework/Options/Header.php:222
+#: inc/Redux_Framework/Options/SideArea.php:48
+msgid "Off"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:94
+#: inc/Redux_Framework/Options/Blog.php:140
+#: inc/Redux_Framework/Options/Breadcrumb.php:39
+#: inc/Redux_Framework/Options/Breadcrumb.php:104
+#: inc/Redux_Framework/Options/Breadcrumb.php:147
+#: inc/Redux_Framework/Options/BuddyPress.php:55
+#: inc/Redux_Framework/Options/BuddyPress.php:76
+#: inc/Redux_Framework/Options/Footer.php:96
+#: inc/Redux_Framework/Options/Footer.php:211
+#: inc/Redux_Framework/Options/General.php:182
+#: inc/Redux_Framework/Options/Header.php:118
+#: inc/Redux_Framework/Options/Header.php:153
+#: inc/Redux_Framework/Options/Header.php:166
+#: inc/Redux_Framework/Options/Header.php:179
+#: inc/Redux_Framework/Options/Header.php:203
+#: inc/Redux_Framework/Options/Header.php:225
+#: inc/Redux_Framework/Options/PMP.php:38
+#: inc/Redux_Framework/Options/RestrictedMode.php:39
+#: inc/Redux_Framework/Options/SideArea.php:50
+#: inc/Redux_Framework/Options/Woocommerce.php:134
+msgid "yes"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:100
+msgid "Blog Single Post"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:109
+msgid "Blog single page layout"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:110
+msgid "Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:113
+#: inc/Redux_Framework/Options/BpPage.php:27
+#: inc/Redux_Framework/Options/LearnPress.php:37
+msgid "Full Width"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:134
+msgid "Comments"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:135
+msgid "Turn on to display comments"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Blog.php:147
+msgid "Select Posts for hide Featured Images"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:23
+msgid "BuddyPress Page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:24
+#: inc/Redux_Framework/Options/LearnPress.php:34
+#: inc/Redux_Framework/Options/Page.php:30
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and No Sidebar) for your Search page.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:48
+msgid "Post Per Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:55
+msgid "Display Default Login Access"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:60
+#: inc/Redux_Framework/Options/Loader.php:35
+msgid "no"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:67
+msgid "Upload Avatar"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:69
+msgid "Upload Avatar image from here."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:76
+msgid "Upload Cover Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BpPage.php:78
+msgid "Upload cover image from here."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:25
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:28
+msgid "This section contains options for Page Breadcrumb."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:34
+msgid "Display Banner Breadcrumb"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:45
+msgid "Select breadcrumb Style"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:46
+msgid "Select the style that best fits your needs."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:49
+msgid "Center alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:54
+msgid "Left alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:59
+msgid "Right alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:64
+msgid "Single left alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:69
+msgid "Single right alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:82
+msgid "Default breadcrumb Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:84
+msgid "Upload default breadcrumb image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:98
+#: inc/Redux_Framework/Options/BuddyPress.php:70
+msgid "Display title on breadcrumb"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:111
+#: inc/Redux_Framework/Options/BuddyPress.php:81
+msgid "Title tag"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:112
+#: inc/Redux_Framework/Options/BuddyPress.php:82
+msgid "Choose title tag"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:129
+#: inc/Redux_Framework/Options/BuddyPress.php:98
+msgid "Title color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:130
+#: inc/Redux_Framework/Options/BuddyPress.php:99
+msgid "Choose title color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:141
+msgid "Display navigation on breadcrumb"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:153
+msgid "Breadcrumb Background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:165
+#: inc/Redux_Framework/Options/Footer.php:55
+msgid "Background color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:166
+msgid "Choose breadcrumb background color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:177
+msgid " Upload your breadcrumb background image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:178
+#: inc/Redux_Framework/Options/Footer.php:67
+#: inc/Redux_Framework/Options/Header.php:89
+#: inc/Redux_Framework/Options/Header.php:391
+msgid "Background image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Breadcrumb.php:179
+msgid "Choose breadcrumb background image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:28
+#: inc/TGM/Component.php:68
+msgid "BuddyPress"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:34
+msgid "Default Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:42
+msgid "Banner Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:50
+msgid "Display Banner"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:61
+msgid "Default Banner Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:63
+msgid "Upload default banner image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:65
+msgid " Upload your banner image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:109
+msgid "Subtitle"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:110
+msgid "Enter Subtitle Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:113
+msgid "Good Communication is the key to cop-up with good ideas"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:122
+msgid "Activity Feeds"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:131
+msgid "Display all user story"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:132
+#: inc/Redux_Framework/Options/BuddyPress.php:145
+msgid "This option allows you to display activities of all users in feed. Turn this option off to display only friends activities."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:133
+#: inc/Redux_Framework/Options/BuddyPress.php:146
+msgid "Turn on to display activity of all users."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:144
+msgid "Display activities of all user"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:157
+msgid "Display Comments Order"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:158
+msgid "This option allows you to change activity comments order."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:159
+msgid "Change order of comments Ascending / Descending."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:161
+msgid "Ascending"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:162
+msgid "Descending"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:170
+msgid "Display Activities Posts Style: Customizing the Feed"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:171
+msgid "This option allows you to display activities of all users in a selected style feed."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:173
+msgid "List"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:174
+msgid "Grid"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:182
+msgid "This option allows you to display activities of posts in a full image style without any blur."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:193
+msgid "Showing blog post in activity page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:194
+msgid "Activity Blog Posts"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:201
+msgid "Allow members to hide post option in activity page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:202
+msgid "Hide Posts"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:209
+msgid "Allow members to share post option in activity page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:210
+msgid "Share Posts"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:219
+msgid "Member Profiles"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:227
+msgid "Show Post"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:228
+msgid "Turn on to display user profile header in show total posts."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:238
+msgid "Show Comments"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:239
+msgid "Turn on to display user profile header in show total comments."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:249
+msgid "Show Views"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:250
+msgid "Turn on to display user profile header in show total views."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:260
+msgid "Show Request Button"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:261
+msgid "Turn on to display user profile header in show request button."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:271
+msgid "Show Message Button"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:272
+msgid "Turn on to display user profile header in show message button."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:285
+msgid "Social Groups"
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:293
+msgid "Showing Rss Field in Group page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/BuddyPress.php:294
+msgid "Enable Rss Field"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:25
+msgid "Global colors"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:28
+msgid "Change default colors of the site."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:33
+msgid "Set custom colors"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:46
+msgid "Primary color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:47
+msgid "To change the primary color, use the Live Style Customizer on the front end. Follow this step: <a href=\"https://youtu.be/1EF_Y6UOWsQ\" target=\"_blank\">https://youtu.be/1EF_Y6UOWsQ</a>"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:54
+msgid "Success color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:55
+msgid "Select success color."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:64
+msgid "Danger color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:65
+msgid "Select danger color."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:74
+msgid "Warning color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:75
+msgid "Select warning color."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:84
+msgid "Info color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:85
+msgid "Select info color."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:94
+msgid "Orange color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:95
+msgid "Select orange color."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:106
+msgid "Light Mode"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:107
+msgid "Dark Mode"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:116
+#: inc/Redux_Framework/Options/Color.php:173
+msgid "Title Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:117
+#: inc/Redux_Framework/Options/Color.php:174
+msgid "Select default Title(Headings) color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:130
+#: inc/Redux_Framework/Options/Color.php:187
+msgid "Body text color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:131
+#: inc/Redux_Framework/Options/Color.php:188
+msgid "Select default body text color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:144
+#: inc/Redux_Framework/Options/Color.php:201
+msgid "Body Parent Box color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:145
+#: inc/Redux_Framework/Options/Color.php:202
+msgid "Select default body body parent box color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:158
+#: inc/Redux_Framework/Options/Color.php:215
+msgid "Body Child Box color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Color.php:159
+#: inc/Redux_Framework/Options/Color.php:216
+msgid "Select default body body child box color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Dashboard.php:20
+msgid "Dashboard"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Dashboard.php:22
+msgid "Get Started"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:25
+#: inc/Redux_Framework/Options/FourZeroFour.php:80
+msgid "Footer"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:32
+msgid "Footer background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:36
+msgid "This section contains options for footer background."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:42
+msgid "Change footer color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:43
+msgid "Select option for the footer background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:45
+#: inc/Redux_Framework/Options/Header.php:66
+#: inc/Redux_Framework/Options/Header.php:368
+#: inc/Redux_Framework/Options/SideArea.php:62
+#: template-parts/footer/frontend-customizer.php:162
+#: template-parts/footer/frontend-customizer.php:294
+msgid "Default"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:46
+#: inc/Redux_Framework/Options/Header.php:67
+#: inc/Redux_Framework/Options/Header.php:369
+#: inc/Redux_Framework/Options/SideArea.php:63
+#: template-parts/footer/frontend-customizer.php:184
+msgid "Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:47
+#: inc/Redux_Framework/Options/FourZeroFour.php:35
+#: inc/Redux_Framework/Options/Header.php:68
+#: inc/Redux_Framework/Options/Header.php:370
+#: inc/Redux_Framework/Options/SideArea.php:64
+msgid "Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:56
+msgid "Choose background color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:68
+msgid "Choose background image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:72
+msgid "Upload Footer image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:80
+msgid "Footer Option"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:84
+msgid "This section contains options for footer."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:90
+msgid "Display footer columns"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:91
+msgid "Display Footer Top On All page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:102
+msgid "Footer Layout Type"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:104
+msgid "<br />Choose among these structures (1-column, 2-column, 3-column and 4-column) for your footer section.<br />To fill these column sections you should go to appearance > widget.<br />And add widgets as per your needs."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:107
+msgid "Layout 1"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:112
+msgid "Layout 2"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:117
+msgid "Layout 3"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:122
+msgid "Layout 4"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:127
+msgid "Layout 5"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:138
+msgid "1st Coulmn alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:155
+msgid "2nd Coulmn alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:169
+msgid "3rd Coulmn alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:183
+msgid "4th Coulmn alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:197
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:206
+msgid "Display Copyrights"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:216
+msgid "Copyrights text alignment"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:217
+msgid "Choose alignment of copyrights text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:231
+msgid "Copyrights Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:232
+msgid "Enter copyrights text here"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Footer.php:233
+msgid "© 2023 SocialV. All Rights Reserved."
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:25
+#: template-parts/content/error-404.php:26
+#: template-parts/content/error-404.php:33
+msgid "404"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:28
+msgid "This section contains options for 404."
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:38
+msgid "Upload 404 image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:39
+msgid " Upload your 404 image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:45
+#: learnpress/addons/course-review/review-form.php:29
+msgid "Title"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:46
+msgid "Enter title text for 404 page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:47
+#: template-parts/content/error-404.php:44
+msgid "Page Not Found."
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:53
+#: mediapress/default/gallery/create.php:62
+#: mediapress/default/shortcodes/create-gallery.php:83
+#: mediapress/default/shortcodes/create-gallery.php:84
+#: woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:54
+msgid "Enter description text for 404 page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:55
+#: template-parts/content/error-404.php:55
+msgid "The requested page does not exist."
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:61
+msgid "Button"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:62
+msgid "Enter text for button label"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:63
+#: template-parts/content/error-404.php:64
+#: template-parts/content/error.php:44
+msgid "Back to Home"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:68
+#: inc/Redux_Framework/Options/FourZeroFour.php:78
+msgid "Enable"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:69
+#: inc/Redux_Framework/Options/FourZeroFour.php:79
+msgid "Disable"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:70
+#: inc/Redux_Framework/Options/Header.php:25
+#: inc/Redux_Framework/Options/Header.php:34
+msgid "Header"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:71
+msgid "Enable / disable header on 404 page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/FourZeroFour.php:81
+msgid "Enable / disable footer on 404 page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:26
+msgid "Body Layout"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:27
+msgid "This section contains body container related options."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:38
+msgid "Container Width"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:39
+msgid "Adjust Your Site Container Width With Help Of Above Option."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:52
+msgid "Body Background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:53
+msgid "Select this option for body background."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:65
+msgid "background color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:66
+msgid "Choose body background color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:80
+msgid "background image."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:81
+msgid "Choose body background image."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:88
+msgid "Page Spacing"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:89
+msgid "Adjust top / bottom spacing of your site pages."
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:118
+msgid "Top / Bottom Spacing"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:119
+#: inc/Redux_Framework/Options/General.php:144
+#: inc/Redux_Framework/Options/General.php:169
+msgid "Choose Top / Bottom spacing"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:143
+msgid "Top / Bottom Spacing for Tablet"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:168
+msgid "Top / Bottom Spacing for Mobile"
+msgstr ""
+
+#: inc/Redux_Framework/Options/General.php:177
+msgid "Display back to top button"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:29
+msgid "Page Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:38
+msgid "This section contains options for header ."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:43
+msgid "Header Style"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:44
+msgid "Select the design variation that you want to use for site menu."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:63
+#: inc/Redux_Framework/Options/Header.php:365
+#: inc/Redux_Framework/Options/SideArea.php:59
+msgid "Background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:64
+#: inc/Redux_Framework/Options/Header.php:366
+msgid "Select the variation for header background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:69
+#: inc/Redux_Framework/Options/Header.php:371
+#: inc/Redux_Framework/Options/SideArea.php:65
+#: template-parts/footer/frontend-customizer.php:195
+#: template-parts/footer/frontend-customizer.php:310
+msgid "Transparent"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:71
+#: inc/Redux_Framework/Options/Header.php:373
+#: inc/Redux_Framework/Options/SideArea.php:67
+#: template-parts/footer/frontend-customizer.php:291
+#: template-parts/footer/frontend-customizer.php:292
+msgid "default"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:77
+#: inc/Redux_Framework/Options/Header.php:379
+msgid "Background Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:78
+#: inc/Redux_Framework/Options/Header.php:380
+msgid "Choose background Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:90
+#: inc/Redux_Framework/Options/Header.php:392
+msgid "Upload background image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:94
+#: inc/Redux_Framework/Options/Header.php:396
+msgid "Upload background image for header."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:102
+msgid "Show Menu Limit"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:103
+msgid "Enter a value for the header menu range"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:112
+msgid "Display Search"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:113
+msgid "Turn on to display the Search in header."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:124
+msgid "Enter Placeholder Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:128
+msgid "Search here"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:135
+#: inc/Redux_Framework/Options/Header.php:185
+msgid "Show List Limit"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:136
+#: inc/Redux_Framework/Options/Header.php:187
+msgid "Enter a value for the text range"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:148
+msgid "Display Friend Requests"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:161
+msgid "Display Messages"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:174
+msgid "Display Notifications"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:198
+msgid "Display Cart Icon"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:219
+msgid "Display Login Button"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:232
+msgid "Button Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:233
+msgid "Enter Button Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:242
+msgid "Showing Login Icon in desktop view."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:258
+msgid "Popup"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:259
+msgid "New Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:262
+msgid "Display Login Form"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:271
+msgid "Select Page For Login"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:272
+msgid "Use [iqonic-login] Shortcode on a page which you selected"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:281
+msgid "Login Form"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:282
+msgid "Use [iqonic-login] Shortcode to display form"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:291
+msgid "Login Description"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:292
+msgid "Enter Description Text for Login"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:293
+#: inc/Redux_Framework/Options/Header.php:325
+#: inc/Redux_Framework/Options/Header.php:347
+msgid "Welcome to socialV, a platform to connect with the social world"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:303
+msgid "Select Page For Forget Password"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:304
+msgid "Use [iqonic-lost-pass] Shortcode on a page which you selected"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:313
+msgid "Forget Password Form"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:314
+msgid "Use [iqonic-lost-pass] Shortcode to display form"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:323
+msgid "Forget Password Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:324
+msgid "Enter Description Text for Forget Password"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:336
+msgid "Select Page For Register"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:337
+msgid "Use [iqonic-register] Shortcode on a page which you selected"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:345
+msgid "Register Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:346
+msgid "Enter Description Text for Register"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:355
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Header.php:359
+msgid "This section contains options for sticky header background."
+msgstr ""
+
+#: inc/Redux_Framework/Options/ImportExport.php:20
+msgid "Import / Export"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:25
+msgid "Customizer Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:28
+msgid "Change the default layout mode , colors of your site."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:33
+msgid "Show Switcher"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:34
+msgid "The style switcher is only for preview on front-end"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:45
+msgid "Select Layout Mode"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:46
+msgid "Select a Mode to quickly apply pre-defined all pages"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:48
+#: inc/Redux_Framework/Options/Logo.php:54
+#: template-parts/footer/frontend-customizer.php:173
+msgid "Dark"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:49
+#: inc/Redux_Framework/Options/Logo.php:53
+msgid "Light"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:58
+msgid "Show Front Customizer Switcher"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:59
+msgid "The style front customizer switcher is only for preview on front-end"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:73
+#: inc/Redux_Framework/Options/RestrictedMode.php:115
+msgid "Select page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Layout.php:74
+msgid "Only Selected Paged for not showing front customizer option on a page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/LearnPress.php:26
+msgid "Course"
+msgstr ""
+
+#: inc/Redux_Framework/Options/LearnPress.php:33
+msgid "Course Page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/LearnPress.php:58
+msgid "Check this option to show the user courses on a profile tab."
+msgstr ""
+
+#: inc/Redux_Framework/Options/LearnPress.php:59
+msgid "Enable Profile Courses Tab"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:20
+msgid "Loader"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:21
+msgid "This section contains options for loader."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:29
+msgid "socialv Loader"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:41
+msgid "Loader Background Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:44
+msgid "Choose Loader Background Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:53
+msgid "Add GIF image for loader"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:57
+msgid "Upload Loader GIF image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:67
+msgid "Loader (Width/Height) Option"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Loader.php:68
+#: inc/Redux_Framework/Options/Logo.php:110
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:25
+msgid "Branding"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:26
+msgid "This section contains options for logo"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:27
+msgid "Design System"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:35
+msgid "Logo Text"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:36
+msgid "Please enter correct value"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:43
+msgid "Choose text color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:57
+msgid "Logo"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:58
+msgid "Upload Logo image for your Website."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:89
+msgid "Logo Left Side ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:100
+msgid "Enable Full Logo?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Logo.php:109
+msgid "Logo (Width/Height) Option"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Page.php:20
+msgid "Search Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Page.php:21
+msgid "This section contains options for search page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Page.php:29
+msgid "Search page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Page.php:33
+msgid "Full width"
+msgstr ""
+
+#: inc/Redux_Framework/Options/PMP.php:26
+msgid "PMP Settings"
+msgstr ""
+
+#: inc/Redux_Framework/Options/PMP.php:33
+msgid "Showing Membership Cancel Logo ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/PMP.php:44
+msgid "Default Logo Image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/PMP.php:46
+msgid "Upload default image for your membership cancel page."
+msgstr ""
+
+#: inc/Redux_Framework/Options/PMP.php:48
+msgid " Upload your cancel logo image"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:2
+msgid "Welcome back!"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:5
+msgid "Experience Our Live Demo Of SocialV Wordpress Theme."
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:6
+msgid "SocialV is the perfect theme for social networking community BuddyPress theme."
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:7
+msgid "Live Demo"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:14
+msgid "Demo Import"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:15
+msgid "Import your demo content, widgets and theme settings with one click."
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:16
+msgid "Start Import"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:22
+msgid "documentation"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:23
+msgid "Document include all the following except of theme, plugins, widgets & theme settings."
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:24
+msgid "Go To Documentation"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:30
+msgid "need help?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:31
+msgid "Need help with something you can't find an answer to in our documentation? Open Support Ticket."
+msgstr ""
+
+#: inc/Redux_Framework/Options/raw_html.php:32
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:25
+msgid "Restricted Mode"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:33
+msgid "Enable page restriction"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:34
+msgid "Enable page restriction if you want to restrict your visitors to access specific pages."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:47
+msgid "Select page for restriction"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:48
+msgid "Select the specific page, that will appear if visitors try to access restricted pages."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:49
+msgid "Visitors will redirect on this page if they try to access restricted pages."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:58
+msgid "Exclude pages from restriction"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:59
+msgid "Select pages which you want to exclude from the restriction so that everyone can access them."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:60
+msgid "Select pages that can accesible to all."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:69
+msgid "Exclude URL from restriction"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:70
+msgid "Enter URLs that you want to exclude from the restriction, one URL per line."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:71
+msgid "These URLs will be accessible to everyone."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:81
+msgid "Select post"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:82
+msgid "Select the specific post type to exclude from the restriction."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:83
+msgid "These Post Types will be accessible to everyone."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:87
+msgid "Pages"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:89
+#: template-parts/header/search.php:47
+msgid "Products"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:100
+msgid "Redirect on referrer page after login?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:101
+msgid "Enable this option to redirect your users to the last visited page, after login."
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:106
+msgid "true"
+msgstr ""
+
+#: inc/Redux_Framework/Options/RestrictedMode.php:116
+msgid "Select the specific page to redirect your users after login."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:26
+msgid "Side Area"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:27
+msgid "This section contains options for side area button in header."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:38
+msgid "This options only works with Second Header Style"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:44
+msgid "Side Area (Sliding Panel)"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:45
+msgid "Set option for Sliding right side panel."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:60
+msgid "Select the variation for Sidearea background"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:73
+msgid "Set Background Color"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:86
+msgid "Upload background image for sidearea."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:94
+msgid "Adjust sidearea width"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:95
+msgid "Choose Width, and/or unit."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SideArea.php:96
+msgid "Sidearea Width."
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialLogin.php:20
+msgid "Social Login"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialLogin.php:22
+msgid "Features"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialLogin.php:28
+msgid "Shortcode"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialLogin.php:31
+msgid "Put you Social Login for Shortcode here"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialMedia.php:20
+msgid "Social Media"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialMedia.php:28
+msgid "Social Media Option"
+msgstr ""
+
+#: inc/Redux_Framework/Options/SocialMedia.php:29
+msgid "Enter social media url."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:23
+msgid "Typography"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:26
+msgid "This section contains typography related options."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:32
+msgid "Do you want to change fonts?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:33
+msgid "0"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:41
+msgid "Body Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:42
+#: inc/Redux_Framework/Options/Typography.php:62
+#: inc/Redux_Framework/Options/Typography.php:81
+#: inc/Redux_Framework/Options/Typography.php:100
+#: inc/Redux_Framework/Options/Typography.php:118
+#: inc/Redux_Framework/Options/Typography.php:136
+#: inc/Redux_Framework/Options/Typography.php:154
+msgid "Select the font."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:53
+#: inc/Redux_Framework/Options/Typography.php:72
+#: inc/Redux_Framework/Options/Typography.php:91
+#: inc/Redux_Framework/Options/Typography.php:110
+#: inc/Redux_Framework/Options/Typography.php:128
+#: inc/Redux_Framework/Options/Typography.php:146
+#: inc/Redux_Framework/Options/Typography.php:164
+msgid "Plus Jakarta Sans"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:61
+msgid "H1 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:80
+msgid "H2 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:99
+msgid "H3 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:117
+msgid "H4 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:135
+msgid "H5 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Typography.php:153
+msgid "H6 Font"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:25
+msgid "WooCommerce "
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:32
+msgid "Shop Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:40
+msgid "Shop page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:41
+msgid "Choose among these structures (Product Listing, Product Grid) for your shop section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:44
+msgid "Product Listing"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:49
+msgid "Product Grid"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:59
+msgid "Shop Grid page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:88
+msgid "Shop List page Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:108
+msgid "Set Product Per Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:109
+msgid "Here This option provide set product per paged item"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:119
+msgid "Product Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:128
+msgid "Display Related Product"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:129
+msgid "This Option Display Related Product On Single Product Page"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:140
+msgid "Number of Product Display On Desktop"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:141
+msgid "4"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:143
+#: inc/Redux_Framework/Options/Woocommerce.php:152
+#: inc/Redux_Framework/Options/Woocommerce.php:162
+#: inc/Redux_Framework/Options/Woocommerce.php:171
+msgid "Enter Numeric Value Only"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:149
+msgid "Number of Product Display On Laptop"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:150
+msgid "3"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:159
+msgid "Number of Product Display On Tablet"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:160
+#: inc/Redux_Framework/Options/Woocommerce.php:169
+msgid "2"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:168
+msgid "Number of Product Display On Mobile"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:177
+msgid "Show Autoplay ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:179
+#: inc/Redux_Framework/Options/Woocommerce.php:191
+#: inc/Redux_Framework/Options/Woocommerce.php:215
+#: inc/Redux_Framework/Options/Woocommerce.php:227
+msgid "True"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:180
+#: inc/Redux_Framework/Options/Woocommerce.php:192
+#: inc/Redux_Framework/Options/Woocommerce.php:216
+#: inc/Redux_Framework/Options/Woocommerce.php:228
+msgid "False"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:189
+msgid "Show Loop ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:201
+msgid "Set Speed"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:213
+msgid "Show Pagination ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:225
+msgid "Show Navigation ?"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:237
+msgid "Products Setting"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:258
+msgid "Display Price"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:269
+msgid "Display Rating"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:281
+msgid "Display AddToCart Icon"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:292
+msgid "Display Wishlist Icon"
+msgstr ""
+
+#: inc/Redux_Framework/Options/Woocommerce.php:304
+msgid "Display QuickView Icon"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/footer.tpl.php:63
+msgid "Reset Section"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/footer.tpl.php:64
+msgid "Reset All"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/footer.tpl.php:68
+#: inc/Redux_Framework/templates/panel/header.tpl.php:81
+msgid "Working..."
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:12
+#: inc/Redux_Framework/templates/panel/header.tpl.php:47
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:21
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:27
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:32
+msgid "and"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:35
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:37
+msgid "If you are not a developer, your theme/plugin author shipped with developer mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:61
+msgid "Expand"
+msgstr ""
+
+#: inc/Redux_Framework/templates/panel/header.tpl.php:66
+msgid "search"
+msgstr ""
+
+#: inc/Scripts/Component.php:94
+msgid "Are you sure you want to reset your settings?"
+msgstr ""
+
+#: inc/Sidebars/Component.php:74
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/Sidebars/Component.php:76
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/Sidebars/Component.php:86
+msgid "Sidebar Area"
+msgstr ""
+
+#: inc/Sidebars/Component.php:95
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/Sidebars/Component.php:104
+msgid "Group Sidebar"
+msgstr ""
+
+#: inc/Sidebars/Component.php:117
+msgid "Product Sidebar"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: inc/Styles/Component.php:246
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#: inc/TGM/Component.php:58
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: inc/TGM/Component.php:63
+msgid "Elementor"
+msgstr ""
+
+#: inc/TGM/Component.php:73
+msgid "bbPress"
+msgstr ""
+
+#: inc/TGM/Component.php:78
+msgid "GamiPress"
+msgstr ""
+
+#: inc/TGM/Component.php:83
+msgid "MediaPress"
+msgstr ""
+
+#: inc/TGM/Component.php:88
+msgid "Verified Member for BuddyPress"
+msgstr ""
+
+#: inc/TGM/Component.php:93
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/TGM/Component.php:98
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/TGM/Component.php:103
+msgid "LearnPress – WordPress LMS Plugin"
+msgstr ""
+
+#: inc/TGM/Component.php:108
+msgid "LearnPress - Course Review"
+msgstr ""
+
+#: inc/TGM/Component.php:113
+msgid "Better Messages – Live Chat for WordPress, BuddyPress, BuddyBoss, Ultimate Member, PeepSo"
+msgstr ""
+
+#: inc/TGM/Component.php:118
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/TGM/Component.php:123
+msgid "WPC Smart Quick View for WooCommerce"
+msgstr ""
+
+#: inc/TGM/Component.php:128
+msgid "WOOF - Products Filter for WooCommerce"
+msgstr ""
+
+#: inc/TGM/Component.php:133
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/TGM/Component.php:138
+msgid "Paid Memberships Pro"
+msgstr ""
+
+#: inc/TGM/Component.php:143
+msgid "Social Login, Social Sharing by miniOrange"
+msgstr ""
+
+#: inc/TGM/Component.php:148
+msgid "WC4BP"
+msgstr ""
+
+#: inc/TGM/Component.php:153
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/TGM/Component.php:176
+msgid "WP Story Premium"
+msgstr ""
+
+#: inc/TGM/Component.php:182
+msgid "GamiPress - BuddyPress integration"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Theme.php:61
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: inc/Theme.php:127
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: inc/WooCommerce/Component.php:252
+msgid "Shop"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:294
+msgid "First Name *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:298
+msgid "Last Name *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:302
+msgid "Company *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:306
+msgid "Country *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:313
+msgid "City *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:317
+msgid "State *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:321
+msgid "Postcode *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:325
+msgid "Phone Number *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:329
+msgid "E-mail Address *"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:355
+msgid "View Cart"
+msgstr ""
+
+#: inc/WooCommerce/Component.php:364
+msgid "Checkout"
+msgstr ""
+
+#: learnpress/addons/course-review/course-rate.php:33
+msgid "Thank you for your review. Your review will be visible after it has been approved!"
+msgstr ""
+
+#: learnpress/addons/course-review/course-rate.php:48
+msgid "<span>%d</span> total"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:16
+#: learnpress/addons/course-review/review-form.php:23
+msgid "Write a review"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:37
+msgid "Rating"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:48
+msgid "Add review"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:23
+#: learnpress/checkout/account-register.php:41
+msgid "Sign in"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:24
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-login.php:41
+msgid "Username or Email Address*"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:25
+msgid "Email or username"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:38
+msgid "Remember me"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:42
+msgid "Lost password?"
+msgstr ""
+
+#: learnpress/checkout/account-login.php:50
+#: learnpress/checkout/guest-checkout.php:46
+msgctxt "checkout sign up link"
+msgid "Sign up"
+msgstr ""
+
+#: learnpress/checkout/account-register.php:18
+msgid "Sign up"
+msgstr ""
+
+#: learnpress/checkout/account-register.php:21
+#: learnpress/profile/tabs/settings/basic-information.php:44
+#: learnpress/profile/tabs/settings/basic-information.php:45
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "Email address"
+msgstr ""
+
+#: learnpress/checkout/account-register.php:39
+msgid "Already had an account?"
+msgstr ""
+
+#: learnpress/checkout/form.php:22
+msgid "Please login to enroll the course!"
+msgstr ""
+
+#: learnpress/checkout/guest-checkout.php:22
+msgid "As Guest"
+msgstr ""
+
+#: learnpress/checkout/guest-checkout.php:23
+#: learnpress/checkout/guest-checkout.php:24
+msgid "Enter your email..."
+msgstr ""
+
+#: learnpress/checkout/guest-checkout.php:30
+msgid "An order key to activate the course will be sent to your email after the payment proceeded successfully."
+msgstr ""
+
+#: learnpress/checkout/guest-checkout.php:38
+msgctxt "checkout sign in link"
+msgid "Sign in"
+msgstr ""
+
+#: learnpress/checkout/guest-checkout.php:51
+msgid "Or you can %1$s%2$s %3$s now."
+msgstr ""
+
+#: learnpress/checkout/order-comment.php:16
+msgid "Additional Information"
+msgstr ""
+
+#: learnpress/checkout/order-comment.php:17
+msgid "Note to administrator"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:26
+msgid "Invalid order."
+msgstr ""
+
+#: learnpress/checkout/order-received.php:39
+#: woocommerce/checkout/thankyou.php:45
+#: woocommerce/checkout/thankyou.php:86
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: learnpress/checkout/order-received.php:50
+msgid "Order Key"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:57
+msgid "Order Number"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:63
+msgid "Item"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:74
+msgid "Course does not exist"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:91
+msgid "(No item)"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:97
+#: paid-memberships-pro/pages/account.php:243
+msgid "Date"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:110
+#: woocommerce/cart/cart-totals.php:96
+#: woocommerce/cart/cart-totals.php:97
+#: woocommerce/checkout/review-order.php:119
+msgid "Total"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:120
+msgid "Payment Method"
+msgstr ""
+
+#: learnpress/checkout/payment.php:25
+msgid "Payment"
+msgstr ""
+
+#: learnpress/checkout/payment.php:28
+msgctxt "payment method"
+msgid "Secure Connection"
+msgstr ""
+
+#: learnpress/checkout/payment.php:70
+msgid "Place order"
+msgstr ""
+
+#: learnpress/content-lesson/button-complete.php:22
+msgid "Do you want to complete lesson"
+msgstr ""
+
+#: learnpress/content-lesson/button-complete.php:31
+msgid "You have completed this lesson at "
+msgstr ""
+
+#: learnpress/content-lesson/button-complete.php:37
+msgid "Completed"
+msgstr ""
+
+#: learnpress/content-lesson/button-complete.php:43
+msgid "Complete lesson"
+msgstr ""
+
+#: learnpress/content-lesson/button-complete.php:56
+msgid "Complete"
+msgstr ""
+
+#: learnpress/courses-top-bar.php:26
+msgid "Search courses..."
+msgstr ""
+
+#: learnpress/courses-top-bar.php:34
+msgid "Switch to %s"
+msgstr ""
+
+#: learnpress/global/lp-modal-overlay.php:17
+msgid "Modal title"
+msgstr ""
+
+#: learnpress/global/lp-modal-overlay.php:20
+msgid "Main Content"
+msgstr ""
+
+#: learnpress/loop/course/instructor.php:21
+msgid "By"
+msgstr ""
+
+#: learnpress/order/recover-form.php:18
+msgid "Order key"
+msgstr ""
+
+#: learnpress/order/recover-form.php:21
+msgid "Recover"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:26
+msgid "Total courses enrolled"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:30
+msgid "Enrolled Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:33
+msgid "Total courses are learning"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:37
+msgid "Active Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:40
+msgid "Total courses has finished"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:44
+msgid "Completed Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:54
+msgid "Total courses created"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:58
+msgid "Total Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:61
+msgid "Total students attended"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/general-statistic.php:65
+msgid "Total Students"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:32
+#: learnpress/profile/tabs/settings/basic-information.php:33
+#: woocommerce/myaccount/form-edit-account.php:29
+msgid "First name"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:36
+#: learnpress/profile/tabs/settings/basic-information.php:37
+#: woocommerce/myaccount/form-edit-account.php:35
+msgid "Last name"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:40
+#: learnpress/profile/tabs/settings/basic-information.php:41
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid "Display name"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:52
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:124
+#: learnpress/profile/tabs/settings/change-password.php:56
+#: woocommerce/myaccount/form-edit-account.php:86
+#: woocommerce/myaccount/form-edit-account.php:87
+msgid "Save changes"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:31
+#: learnpress/profile/tabs/settings/change-password.php:32
+msgid "Current password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:35
+#: learnpress/profile/tabs/settings/change-password.php:36
+msgid "New password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:39
+#: learnpress/profile/tabs/settings/change-password.php:40
+#: woocommerce/myaccount/form-edit-account.php:74
+msgid "Confirm new password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:42
+msgid "New password does not match!"
+msgstr ""
+
+#: learnpress/single-course/buttons/continue.php:19
+msgid "Continue"
+msgstr ""
+
+#: learnpress/single-course/buttons/enroll.php:28
+msgid "Start Now"
+msgstr ""
+
+#: learnpress/single-course/buttons/finish.php:15
+#: learnpress/single-course/buttons/finish.php:16
+msgid "Finish course"
+msgstr ""
+
+#: learnpress/single-course/buttons/purchase.php:33
+msgid "Buy Now"
+msgstr ""
+
+#: learnpress/single-course/buttons/retry.php:25
+msgid "Do you want to retake course"
+msgstr ""
+
+#: learnpress/single-course/buttons/retry.php:40
+msgid "Retake course"
+msgstr ""
+
+#: learnpress/single-course/content-item/popup-sidebar.php:18
+msgctxt "search course input placeholder"
+msgid "Search courses content"
+msgstr ""
+
+#: learnpress/single-course/featured-review.php:19
+msgid "Featured Review"
+msgstr ""
+
+#: learnpress/single-course/meta/category.php:15
+msgid "Backend"
+msgstr ""
+
+#: learnpress/single-course/meta/category.php:19
+msgid "Uncategorized"
+msgstr ""
+
+#: learnpress/single-course/meta/duration.php:15
+msgid "Lifetime access"
+msgstr ""
+
+#: learnpress/single-course/meta/instructor.php:23
+msgid "Created By"
+msgstr ""
+
+#: learnpress/single-course/sidebar/user-progress.php:27
+msgid "Course Results:"
+msgstr ""
+
+#: learnpress/single-course/tabs/curriculum-v2.php:47
+msgid "Show more Sections"
+msgstr ""
+
+#: learnpress/single-course/tabs/tabs.php:39
+msgid "You finished this course. This course has been blocked"
+msgstr ""
+
+#: learnpress/single-course/tabs/tabs.php:44
+msgid "This course has been blocked reason by expire"
+msgstr ""
+
+#: mediapress/default/buddypress/groups/gallery/single.php:41
+#: mediapress/default/buddypress/groups/gallery/single.php:54
+#: mediapress/default/buddypress/members/gallery/single.php:39
+#: mediapress/default/buddypress/members/gallery/single.php:52
+msgid "Upload"
+msgstr ""
+
+#: mediapress/default/buddypress/groups/gallery/single.php:68
+#: mediapress/default/buddypress/members/gallery/single.php:66
+msgid "Select All"
+msgstr ""
+
+#: mediapress/default/buddypress/groups/gallery/single.php:111
+#: mediapress/default/buddypress/members/gallery/single.php:109
+msgid "The privacy policy does not allow you to view this."
+msgstr ""
+
+#: mediapress/default/buddypress/groups/gallery/single.php:120
+#: mediapress/default/buddypress/members/gallery/single.php:118
+msgid "Nothing to see here!"
+msgstr ""
+
+#: mediapress/default/gallery/create.php:57
+#: mediapress/default/shortcodes/create-gallery.php:76
+msgid "Title:"
+msgstr ""
+
+#: mediapress/default/gallery/create.php:58
+#: mediapress/default/shortcodes/create-gallery.php:75
+msgid "Gallery Title (Required)"
+msgstr ""
+
+#: mediapress/default/gallery/create.php:82
+#: mediapress/default/gallery/loop-gallery.php:97
+#: mediapress/default/shortcodes/create-gallery.php:108
+msgid "Create"
+msgstr ""
+
+#: mediapress/default/gallery/create.php:92
+#: mediapress/default/shortcodes/create-gallery.php:118
+msgid "Unauthorized access!"
+msgstr ""
+
+#: mediapress/default/gallery/loop-gallery.php:25
+#: mediapress/default/shortcodes/create-gallery.php:54
+msgid "Create Album"
+msgstr ""
+
+#: mediapress/default/gallery/loop-gallery.php:93
+msgid "There are no galleries available!"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:56
+msgid "My Account"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:66
+#: template-parts/header/user.php:23
+msgid "user-img"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:82
+#: template-parts/header/user.php:41
+msgid "Log Out"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:101
+msgid "My Memberships"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:108
+#: paid-memberships-pro/pages/account.php:244
+msgid "Level"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:109
+msgid "Billing"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:110
+msgid "Expiration"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:134
+msgid "Your membership is not active. <a href='%s'>Renew now.</a>"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:137
+msgid "You do not have an active membership. <a href='%s'>Register here.</a>"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:140
+msgid "You do not have an active membership. <a href='%s'>Choose a membership level.</a>"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:160
+msgid "Renew %1$s Membership"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:160
+msgid "Renew"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:164
+msgid "Update Billing Info for %1$s Membership"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:164
+msgid "Update Billing Info"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:169
+msgid "Change %1$s Membership"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:169
+msgid "Change"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:172
+msgid "Cancel %1$s Membership"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:208
+msgctxt "A dash is shown when there is no expiration date."
+msgid "&#8212;"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:222
+msgid "View all Membership Options"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:236
+msgid "Past Invoices"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:245
+msgid "Amount"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:263
+msgid "Paid"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:266
+msgid "Pending"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:268
+msgid "Refunded"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:274
+#: woocommerce/single-product/meta.php:28
+msgid "N/A"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:286
+msgid "View All Invoices"
+msgstr ""
+
+#: paid-memberships-pro/pages/account.php:299
+msgid "Member Links"
+msgstr ""
+
+#: searchform.php:16
+#: template-parts/content/error.php:38
+msgid "Search website"
+msgstr ""
+
+#: searchform.php:20
+#: template-parts/content/error.php:39
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:34
+msgid "Asides"
+msgstr ""
+
+#: template-parts/buddypress-custom/privacy-security.php:27
+msgid "Account privacy"
+msgstr ""
+
+#: template-parts/buddypress-custom/privacy-security.php:35
+msgid "Private account"
+msgstr ""
+
+#: template-parts/buddypress-custom/privacy-security.php:37
+msgid "When your account is private, only your friends can see your profile and activities."
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: template-parts/content/entry.php:30
+#: template-parts/content/entry_page.php:18
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/entry_actions.php:14
+msgid "Read More"
+msgstr ""
+
+#. translators: %s: post author
+#: template-parts/content/entry_meta.php:65
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: template-parts/content/entry_meta.php:68
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:87
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:90
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#: template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/error.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/error.php:34
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/error.php:50
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content/page_header.php:22
+#: template-parts/content/page_header.php:39
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/footer/copyright.php:48
+msgid "© 2023"
+msgstr ""
+
+#: template-parts/footer/copyright.php:49
+msgid " socialv "
+msgstr ""
+
+#: template-parts/footer/copyright.php:50
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:22
+msgid "Live Style Customizer"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:33
+msgid "Save"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:57
+msgid "Theme"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:65
+msgid "LTR"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:73
+msgid "RTL"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:80
+msgid "Color Customizer"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:82
+msgid "Custom"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:152
+msgid "Sidebar Color"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:204
+msgid "Menu Style"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:209
+#: template-parts/footer/frontend-customizer.php:210
+#: template-parts/footer/frontend-customizer.php:251
+#: template-parts/footer/frontend-customizer.php:252
+msgid "mini"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:212
+msgid "Mini"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:219
+#: template-parts/footer/frontend-customizer.php:220
+#: template-parts/footer/frontend-customizer.php:243
+#: template-parts/footer/frontend-customizer.php:244
+#: template-parts/footer/frontend-customizer.php:299
+#: template-parts/footer/frontend-customizer.php:300
+msgid "hover"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:222
+msgid "Hover"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:227
+#: template-parts/footer/frontend-customizer.php:228
+#: template-parts/footer/frontend-customizer.php:259
+#: template-parts/footer/frontend-customizer.php:260
+#: template-parts/footer/frontend-customizer.php:267
+#: template-parts/footer/frontend-customizer.php:268
+#: template-parts/footer/frontend-customizer.php:275
+#: template-parts/footer/frontend-customizer.php:276
+#: template-parts/footer/frontend-customizer.php:307
+#: template-parts/footer/frontend-customizer.php:308
+msgid "boxed"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:230
+msgid "Boxed"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:238
+msgid "Active Menu Style"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:246
+msgid "Rounded All"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:254
+msgid "Rounded One Side"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:262
+msgid "Pill All"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:270
+msgid "Pill One Side"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:278
+msgid "Left Bordered"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:286
+msgid "Navbar Style"
+msgstr ""
+
+#: template-parts/footer/frontend-customizer.php:302
+msgid "Glass"
+msgstr ""
+
+#: template-parts/header/cart.php:11
+#: template-parts/header/cart.php:25
+msgid "Shopping Cart"
+msgstr ""
+
+#: template-parts/header/friends-request.php:13
+#: template-parts/header/friends-request.php:20
+msgid "Friend Requests"
+msgstr ""
+
+#: template-parts/header/friends-request.php:54
+msgid "View All Friend Request"
+msgstr ""
+
+#: template-parts/header/friends-request.php:58
+msgid "You have no pending friends requests."
+msgstr ""
+
+#: template-parts/header/header.php:29
+msgid "loader"
+msgstr ""
+
+#: template-parts/header/header.php:49
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/header/messages.php:34
+#: template-parts/header/messages.php:75
+msgid "View All Messages"
+msgstr ""
+
+#: template-parts/header/messages.php:57
+msgid "To:"
+msgstr ""
+
+#: template-parts/header/navigation.php:23
+#: template-parts/header/verticle-header.php:27
+msgid "More"
+msgstr ""
+
+#: template-parts/header/navigation.php:23
+#: template-parts/header/verticle-header.php:27
+msgid "Main menu"
+msgstr ""
+
+#: template-parts/header/navigation.php:74
+#: template-parts/header/verticle-header.php:103
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/header/notifications.php:97
+msgid "View All Notifications"
+msgstr ""
+
+#: template-parts/header/notifications.php:102
+#: template-parts/header/notifications.php:108
+msgid "Sorry, no notification were found."
+msgstr ""
+
+#: template-parts/header/user.php:66
+msgctxt "site_login_title"
+msgid "%s"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:30
+#: template-parts/wocommerce/entry.php:25
+#: woocommerce/single-product/sale-flash.php:27
+msgid "Sold!"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:32
+#: template-parts/wocommerce/entry.php:27
+#: woocommerce/single-product/sale-flash.php:30
+msgid "Sale!"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:34
+#: template-parts/wocommerce/entry.php:29
+#: woocommerce/single-product/sale-flash.php:33
+msgid "New!"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:117
+#: template-parts/wocommerce/entry.php:112
+msgid "Select Options"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:121
+#: template-parts/wocommerce/entry.php:116
+msgid "View products"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:125
+#: template-parts/wocommerce/entry.php:120
+msgid "Our Product"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:129
+#: template-parts/wocommerce/entry.php:124
+msgid "Add to Cart"
+msgstr ""
+
+#: template-parts/wocommerce/entry-listing.php:134
+#: template-parts/wocommerce/entry.php:129
+msgid "View cart"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:32
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:31
+#: woocommerce/cart/cart-totals.php:32
+#: woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:112
+#: woocommerce/checkout/review-order.php:67
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:52
+#: woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+#: woocommerce/cart/cart-totals.php:72
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+#: woocommerce/cart/cart.php:53
+#: woocommerce/checkout/form-checkout.php:55
+#: woocommerce/checkout/form-pay.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:85
+msgid "Price"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:91
+#: woocommerce/global/quantity-input.php:21
+#: woocommerce/wishlist-view.php:98
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:124
+#: woocommerce/cart/mini-cart.php:47
+#: woocommerce/checkout/review-order.php:50
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:147
+#: woocommerce/checkout/form-coupon.php:37
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:158
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:107
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:25
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:32
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:54
+#: woocommerce/cart/shipping-calculator.php:64
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:55
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:71
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:77
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:38
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:57
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:41
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:29
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:61
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:67
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/global/form-login.php:38
+msgid "Password*"
+msgstr ""
+
+#: woocommerce/global/form-login.php:45
+#: woocommerce/myaccount/form-login.php:51
+msgid "Lost your password?"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:21
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:49
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:30
+#: woocommerce/wishlist-view-mobile.php:206
+#: woocommerce/wishlist-view.php:255
+msgid "View Product"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:43
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:73
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:36
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/downloads.php:43
+#: woocommerce/myaccount/orders.php:108
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:46
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:56
+#: woocommerce/myaccount/form-add-payment-method.php:57
+#: woocommerce/myaccount/payment-methods.php:76
+msgid "Add payment method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:64
+msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:47
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Password change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:63
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:26
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:50
+#: woocommerce/myaccount/form-edit-address.php:51
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:42
+msgid "Username or email address *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:56
+#: woocommerce/myaccount/form-login.php:57
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+msgid "Username *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:84
+msgid "Email address *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:89
+msgid "Password *"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:29
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "Username or Email*"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:42
+#: woocommerce/myaccount/form-lost-password.php:43
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:101
+#: woocommerce/order/order-details-customer.php:56
+msgid "Company"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:106
+#: woocommerce/order/order-details-customer.php:61
+msgid "Country"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:111
+#: woocommerce/order/order-details-customer.php:66
+msgid "Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:116
+#: woocommerce/order/order-details-customer.php:71
+msgid "E-mail"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:121
+#: woocommerce/order/order-details-customer.php:76
+msgid "Phone"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:62
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:97
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:111
+msgid "No order has been made yet."
+msgstr ""
+
+#. translators: 1: credit card type 2: last 4 digits
+#: woocommerce/myaccount/payment-methods.php:48
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:69
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Enter your order id."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:34
+msgid "Enter your email id."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:40
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:41
+msgid "Track Order"
+msgstr ""
+
+#: woocommerce/order/order-again.php:22
+msgid "Order again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:45
+msgid "Billing address "
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:25
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:59
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:65
+msgid "Never"
+msgstr ""
+
+#: woocommerce/share.php:83
+msgid "WhatsApp"
+msgstr ""
+
+#: woocommerce/share.php:93
+msgid "(Now"
+msgstr ""
+
+#: woocommerce/share.php:93
+msgid "copy"
+msgstr ""
+
+#: woocommerce/share.php:93
+msgid "this wishlist link and share it anywhere)"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:37
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:40
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:78
+msgid "Add a review"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:78
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:80
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:138
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:142
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:143
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:144
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:145
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:146
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:147
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:148
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:152
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:159
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "SKU :"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "Category :"
+msgid_plural "Categories :"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:46
+msgid "Tag :"
+msgid_plural "Tags :"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:33
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:28
+msgid "You may also like"
+msgstr ""
+
+#: woocommerce/wishlist-view-header.php:43
+msgid "wishlist-title-with-form"
+msgstr ""
+
+#: woocommerce/wishlist-view-header.php:48
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:53
+msgid "with-checkbox"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:53
+#: woocommerce/wishlist-view.php:55
+msgid "no-interactions"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:87
+msgid "Product Name:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:135
+msgid "Added on:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:146
+msgid "Price:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:173
+msgid "Quantity:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:188
+msgid "Stock:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:191
+#: woocommerce/wishlist-view.php:231
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:191
+#: woocommerce/wishlist-view.php:231
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:220
+#: woocommerce/wishlist-view.php:269
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:241
+#: woocommerce/wishlist-view.php:290
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:249
+#: woocommerce/wishlist-view.php:160
+#: woocommerce/wishlist-view.php:300
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:262
+#: woocommerce/wishlist-view.php:321
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:55
+msgid "sortable"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:81
+msgid "Product name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:89
+msgid "Unit price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:107
+msgid "Stock status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:125
+msgid "Arrange"
+msgstr ""
+
+#. translators: date added label: 1 date added.
+#: woocommerce/wishlist-view.php:245
+msgid "Added on: %s"
+msgstr ""

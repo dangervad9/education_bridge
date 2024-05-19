@@ -1,0 +1,43 @@
+.review-stars-rated {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.review-stars-rated .review-star {
+  position: relative;
+  line-height: 1;
+  margin: 0 2px;
+}
+
+.review-stars-rated .review-star .far {
+  position: relative;
+}
+
+.review-stars-rated .review-star .fas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.learnpress-course-review .course-reviews-list li .review-text {
+  float: left;
+  margin-top: 10px;
+}
+
+.learnpress-course-review .write-a-review {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 479px){
+  .learnpress-course-review .course-reviews-list li .review-author-info{
+    float: none;
+    display: inline-block;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .learnpress-course-review .course-reviews-list li .review-text{
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,373 @@
+/*SideBar - Recent Comments*/
+.socialv-widget-menu .socialv-post li a {
+	padding-left: 0;
+}
+
+.widget.widget_recent_comments .recentcomments {
+	color: var(--color-theme-primary);
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a {
+	color: var(--global-font-color);
+	padding-left: 0;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments span a,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments span a {
+	color: var(--global-font-title);
+}
+
+.socialv-widget-menu .socialv-post li a::before {
+	display: none;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a::before,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments a::before {
+	display: none;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a:hover,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments a:hover {
+	color: var(--color-theme-primary);
+	text-decoration: underline !important;
+	padding-left: 0;
+}
+
+/* SideBar Calendar */
+.widget_calendar table caption {
+	caption-side: inherit;
+	color: var(--color-theme-secondary);
+	text-transform: uppercase;
+}
+
+.wp-block-calendar table caption {
+	caption-side: inherit;
+	text-align: center;
+	color: var(--color-theme-white);
+	background: var(--color-theme-primary);
+	text-transform: uppercase;
+}
+
+.calendar_wrap .wp-calendar-table caption {
+	text-transform: uppercase;
+	background: var(--color-theme-primary);
+	color: var(--color-theme-white);
+	caption-side: inherit;
+	text-align: center;
+}
+
+.widget_calendar table#wp-calendar {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+.widget_calendar .calendar_wrap td#today {
+	background: var(--color-theme-primary);
+	color: var(--color-theme-white);
+}
+
+.widget_calendar .calendar_wrap td#today a {
+	color: var(--color-theme-white);
+}
+
+.widget_calendar .calendar_wrap table th {
+	background: var(--color-theme-white-box);
+	color: var(--color-theme-secondary);
+}
+
+.wp-block-calendar table th {
+	background: transparent;
+	color: var(--color-theme-primary);
+	font-weight: var(--font-weight-bold);
+}
+
+.widget_calendar .calendar_wrap table th,
+.widget_calendar .calendar_wrap table td {
+	padding: .5em;
+	text-align: center;
+}
+
+.wp-block-calendar tbody td,
+.wp-block-calendar th {
+	border-color: var(--border-color-light);
+	color: var(--global-font-color);
+}
+
+.widget_calendar table#wp-calendar {
+	margin-bottom: .625em;
+}
+
+.wp-calendar-nav {
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+}
+
+.widget_calendar table#wp-calendar {
+	margin-bottom: .625em;
+	caption-side: inherit;
+}
+
+/*---------------  Categories side widget  ------------------------*/
+
+.widget.widget_archive ul li span.archiveCount,
+.widget.widget_archive ul li span.achiveCount,
+.widget.widget_block .wp-block-categories-list .archiveCount,
+.widget_categories ul li span.archiveCount {
+	float: right;
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-bold);
+}
+
+.download-item li {
+	display: block;
+	background: var(--global-white-light-color);
+	padding-bottom: 0 !important;
+}
+
+.download-item li i {
+	background: var(--color-theme-primary);
+	padding: 1em;
+	color: var(--color-theme-white);
+	font-size: 1.5em;
+}
+
+.widget.get-file {
+	margin-bottom: 1em;
+	padding: 0;
+	background: transparent;
+}
+
+.widget.get-file a:hover {
+	color: var(--color-theme-primary);
+}
+
+.widget.get-file a {
+	text-decoration: none;
+}
+
+/*-----------    Blog - SideBar  -------------------------*/
+.socialv-widget-menu ul.socialv-post li {
+	border: none;
+}
+
+.socialv-post-sidebar {
+	height: 100%;
+}
+
+.testimonail-widget-menu.widget {
+	padding: 0;
+	background: transparent;
+}
+
+/* SideBar Categories List */
+.widget.widget_categories ul li a,
+.widget.widget_archive ul li a,
+.widget.widget_block ul.wp-block-categories li a,
+.widget.widget_block ul.wp-block-archives li a,
+.widget.widget_categories ul li a,
+.widget.widget_pages ul li a,
+.widget.widget_nav_menu ul li a,
+.widget.widget_meta ul li a {
+	color: var(--global-font-color);
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-bold);
+	letter-spacing: var(--letter-spacing-two);
+	text-transform: uppercase;
+}
+
+/* SideBar Archives Dropdown */
+.widget select,
+.widget.widget_archive select,
+.widget_categories select {
+	border: .0625em solid var(--border-color-light);
+	outline: none;
+	border-radius: var(--border-radius);
+	font-size: var(--font-size-body);
+	line-height: var(--font-line-height-body);
+}
+
+/* Meta Sidebar - widget RSS*/
+.widget.widget_rss ul li {
+	margin-bottom: 1.25em;
+}
+
+.widget.widget_rss ul li:last-child {
+	margin-bottom: 0;
+}
+
+.widget.widget_rss ul li a {
+	padding-left: 0;
+	font-size: 1.125em;
+	color: var(--global-font-title);
+	font-weight: 600;
+}
+
+.widget.widget_rss ul li a:hover {
+	color: var(--color-theme-primary);
+}
+
+.widget.widget_rss ul li a::before {
+	display: none;
+}
+
+.widget.widget_rss ul li .rss-date {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	margin: .313em 0;
+	color: var(--color-theme-primary);
+	font-size: .875em;
+}
+
+.widget.widget_rss ul li cite {
+	margin-top: .313em;
+	display: inline-block;
+	width: 100%;
+}
+
+/*widget Nav Menu*/
+.widget.widget_nav_menu ul li,
+.widget ul.menu li {
+	margin-bottom: 0;
+}
+
+.widget.widget_nav_menu ul li .sub-menu,
+.widget ul.menu li .sub-menu {
+	display: block !important;
+	padding-left: 1.25em;
+}
+
+.widget.widget_nav_menu ul li a,
+.widget ul.menu li a {
+	padding: .625em 0 .625em 1em;
+	display: inline-block;
+	width: 100%;
+}
+
+.widget.widget_nav_menu ul li i,
+.widget ul.menu li i {
+	display: none;
+}
+
+
+.widget.widget_nav_menu #menu-service-menu li.current-menu-item a {
+	background: var(--color-theme-primary);
+	color: var(--color-theme-white);
+}
+
+.socialv-widget-menu .socialv-post li a.date-widget {
+	color: var(--color-theme-primary);
+	margin-bottom: .625em;
+	display: block;
+	font-size: .75em;
+	font-weight: 700;
+}
+
+.socialv-widget-menu .post-img .post-blog a.new-link h6 {
+	color: var(--color-theme-white);
+	line-height: 1.438em;
+	display: block;
+	overflow: hidden;
+}
+
+/* SideBar - widget Recent Entries*/
+.widget_recent_entries ul li .post-date {
+	color: var(--color-theme-secondary);
+	float: right;
+}
+
+/*SideBar - Tags*/
+.widget_tag_cloud ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget_tag_cloud ul li {
+	padding: 0;
+	display: inline-block;
+	margin: .188em .313em .188em 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a,
+.widget_tag_cloud ul li a {
+	display: block;
+	color: var(--global-font-color);
+	font-size: var(--font-size-body) !important;
+}
+
+.widget.widget_block .wp-block-tag-cloud a {
+	display: inline-block;
+	position: relative;
+	margin: 0 .325em .625em 0;
+	padding: 0 .6em 0 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a:last-child {
+	padding: 0;
+	margin-right: 0;
+}
+
+.wp-block-image.size-full.image-sidebar {
+	margin: -2em;
+}
+
+.widget.widget_block .wp-block-tag-cloud a:hover,
+.widget_tag_cloud ul li a.tag-cloud-link:hover,
+.widget.widget_block .wp-block-tag-cloud a:hover {
+	color: var(--color-theme-primary);
+}
+
+.widget_tag_cloud ul li a::before,
+.widget.widget_block .wp-block-tag-cloud a::before {
+	position: absolute;
+	content: "";
+	background: var(--global-font-color);
+	top: 50%;
+	right: -.7em;
+	height: .8em;
+	width: 1px;
+	display: block;
+	transform: rotate(10deg) translateY(-50%);
+}
+
+.widget.widget_block .wp-block-tag-cloud a::before {
+	right: 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a:last-child:before {
+	display: none;
+}
+
+.wp-block-latest-comments__comment {
+	display: inline-block;
+	list-style: none;
+	margin-bottom: .875em;
+}
+
+.wp-block-latest-comments__comment:last-child {
+	border: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+ol.wp-block-latest-comments {
+	margin-bottom: 0;
+}
+
+@media(max-width: 29.938em) {
+
+	.widget.widget_nav_menu ul li .sub-menu,
+	.widget ul.menu li .sub-menu {
+		padding-left: .625em;
+	}
+
+	.widget_calendar .calendar_wrap table td,
+	.widget_calendar .calendar_wrap table th {
+		padding: .313em;
+		font-size: var(--font-size-normal);
+	}
+}

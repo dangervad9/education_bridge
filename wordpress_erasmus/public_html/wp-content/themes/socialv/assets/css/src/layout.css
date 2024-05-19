@@ -1,0 +1,147 @@
+/*
+Layout Switcher.
+*/
+
+.btn-fixed-end.btn-icon-box {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    padding: 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+
+.btn-setting {
+    padding: .5em;
+    z-index: 1000;
+    
+}
+
+.offcanvas.live-customizer {
+    background: var(--color-theme-white-box);
+    z-index: 99999;
+    width: var(--customizer-width);
+    box-shadow: var(--global-box-shadow);
+    border: none;
+}
+
+.live-customizer .btn-icon-box {
+    border: .125em solid var(--border-color-light);
+    padding: .6em 0;
+    transition: all .45s ease 0s;
+    display: inline-block;
+    border-radius: var(--border-radius);
+}
+
+.live-customizer .btn-close {
+    background: transparent;
+    font-size: 1.2em;
+    color: var(--global-font-title);
+}
+
+.live-customizer .socialv-btn-primary {
+    color: var(--color-theme-white);
+    padding: .7em 0;
+    border-radius: var(--border-radius);
+}
+
+.live-customizer button svg {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.offcanvas.live-customizer .row {
+    margin-left: -.5em;
+    margin-right: -.5em;
+}
+
+.offcanvas.live-customizer .col {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.live-customizer .offcanvas-header .btn-close {
+    color: inherit;
+}
+
+/* button */
+.live-customizer .btn-box {
+    font-size: var(--font-size-normal);
+    font-family: var(--highlight-font-family);
+    letter-spacing: var(--letter-spacing-one);
+    font-weight: var(--font-weight-semi-bold);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: var(--global-font-color);
+    border: .125em solid var(--border-color-light);
+    padding: .6em 0;
+    transition: all .45s ease 0s;
+}
+
+.live-customizer .btn-box:hover {
+    border-color: var(--color-theme-primary);
+}
+
+.btn-check:checked + .btn-box {
+    color: var(--color-theme-white);
+    background-color: var(--color-theme-primary);
+    border-color: var(--color-theme-primary);
+}
+.btn-check:checked + .btn-box {
+    color: var(--color-theme-primary);
+}
+.live-customizer .btn-check:focus+.btn, 
+.live-customizer .btn:focus {
+    box-shadow: none;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+#custom-color input[type=color] {
+    padding: 0;
+    width: 4em;
+    height: 1.8em;
+    border: none;
+}
+
+.btn-icon-box {
+    height: 3em;
+    width: 3em;
+    padding: 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-setting > i {
+    margin-top: .3em;
+}
+.mode.light-img {
+    display: block;
+}
+.mode {
+    display: none;
+}
+[data-mode=dark] .mode.dark-img,
+.layout-switch.dark .mode.dark-img {
+    display: block;
+}
+[data-mode=dark] .mode.light-img,
+.layout-switch.dark .mode.light-img {
+    display: none;
+}
+#theme-color-default + label {
+    cursor: pointer;
+}

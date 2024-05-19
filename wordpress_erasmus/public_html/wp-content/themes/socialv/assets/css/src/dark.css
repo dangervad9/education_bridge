@@ -1,0 +1,38 @@
+[data-mode=light] .color-mode.icon-moon-icon::before {
+    content: "\e01a";
+}
+
+[data-mode=dark] .sidebar-default .navbar-nav .nav-item .nav-link:not(.disabled):hover:not(.active):not([aria-expanded=true]) {
+    color: var(--color-theme-white);
+}
+[data-mode=dark] .sidebar-default .navbar-nav .nav-item .nav-link:not(.disabled):hover:not(.active):not([aria-expanded=true]) .icon {
+    color: var(--color-theme-white);
+}
+[data-mode=dark] .sidebar .menu-label {
+    color: var(--menu-label-color);
+}
+[data-mode=dark] .swiper-pagination-bullet {
+	background-color: var(--color-theme-white);
+}
+[data-mode=dark] .socialv-groups-lists .socialv-group-info .group-icon img {
+    border: .188em solid var(--color-theme-white);
+}
+[data-mode=dark] .wp-editor-wrap .quicktags-toolbar {
+    background-color: var(--global-body-bgcolor);
+}
+[data-mode=dark] .header-avatar {
+    background: var(--color-theme-white);
+}
+[data-mode=dark] header.header-glass {
+    background: linear-gradient(120deg,hsla(0,0%,100%,.05) -8%,hsla(0,0%,100%,.01) 120%);
+}
+[data-mode=dark] select option {
+    background: var(--color-theme-white-box);
+}
+
+[data-mode=dark] .stories.snapgram .story>.item-link,
+[data-mode=dark] .wp-story-style-class-48f16767daf224e6f4a3ad309e840086.snapssenger.carousel .story>.item-link>.info, 
+[data-mode=dark] .wp-story-style-class-48f16767daf224e6f4a3ad309e840086.snapgram .story > .item-link,
+[data-mode=dark] .wp-story-style-class-48f16767daf224e6f4a3ad309e840086.vemdezap .story > .item-link {
+    color: var(--color-theme-white) !important;
+}

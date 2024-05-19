@@ -1,0 +1,246 @@
+.socialv-btn-container {
+	vertical-align: middle;
+}
+
+.btn-group-sm>.btn, 
+.btn-sm,
+#buddypress .btn.btn-sm,
+#buddypress button.btn-sm,
+#buddypress input.btn.btn-sm,
+#buddypress .generic-button .btn.btn-sm ,
+#buddypress .remove.btn.socialv-btn-danger{
+	padding: .3em .5em;
+    font-size: var(--font-size-small);
+}
+
+.button,
+.btn,
+#buddypress .button,
+#buddypress a.button,
+#buddypress .btn,
+#buddypress button,
+#buddypress input.btn,
+#buddypress .generic-button .btn {	
+	font-size: var(--font-size-normal);
+	font-family: var(--highlight-font-family);
+	letter-spacing: var(--letter-spacing-one);
+	font-weight: var(--font-weight-semi-bold);
+	line-height: var(--font-line-height-body);
+	border-radius: var(--border-radius);
+	padding: .813em 2em;
+	border: .063em solid transparent;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	white-space: nowrap;
+	box-shadow: none;
+	transition: all .45s ease-in-out;
+}
+
+#buddypress input.socialv-button,
+.learnpress.learnpress-page .lp-button, 
+.learnpress.learnpress-page #lp-button,
+.socialv-button,
+.rs-button {
+	color: var(--color-theme-white);
+	font-size: var(--font-size-normal);
+	font-family: var(--highlight-font-family);
+	letter-spacing: var(--letter-spacing-one);
+	font-weight: var(--font-weight-semi-bold);
+	line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-primary);
+	border-radius: var(--border-radius);
+	height: auto;
+	padding: .813em 2em;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	overflow: hidden;
+	transition: all .45s ease-in-out;
+}
+
+a.socialv-button:focus {
+	color: var(--color-theme-white);
+}
+
+#buddypress input.socialv-button:hover,
+.learnpress.learnpress-page .lp-button:hover, 
+.learnpress.learnpress-page #lp-button:hover,
+.socialv-button:hover,
+.rs-button:hover {
+	background: var(--color-theme-primary-dark);
+	color: var(--color-theme-white);
+	border: none;
+}
+
+.socialv-button:visited,
+.rs-button:visited {
+	background: var(--color-theme-primary-dark);
+	color: var(--color-theme-white);
+}
+
+.socialv-button.socialv-button-light {
+	background: var(--border-color-light);
+	color: var(--global-font-title);
+}
+
+.socialv-button.socialv-white-btn {
+	background: var(--color-theme-white);
+	color: var(--global-font-title);
+}
+
+button:hover,
+button:focus,
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.socialv-button.socialv-button-link {
+	background: transparent;
+	color: var(--color-theme-primary);
+	padding: 0;
+	box-shadow: none;
+}
+
+.socialv-button.socialv-button-link:hover {
+	background: transparent;
+	color: var(--global-font-title);
+}
+
+.socialv-button.disabled{
+	opacity: .7;
+	cursor: not-allowed;
+}
+
+/* Friend Request Button */
+.request-button {
+    min-width: 4.5em;
+}
+
+#buddypress .request-button .socialv-button,
+#buddypress .request-button .btn,
+.request-button .socialv-button,
+.request-button .btn {
+	font-size: .7em;
+	padding: 0;
+	margin: 0 0 0 .5em;
+	height: 2.5em;
+	width: 2.5em;
+	min-width: 2.5em;
+	line-height: 2.2em;
+	text-align: center;
+	border: none;
+}
+
+.buddypress .buddypress-wrap .generic-button a.friendship-button.requested {
+	color: var(--global-font-title);
+	font-family: var(--highlight-font-family);
+	letter-spacing: var(--letter-spacing-one);
+	font-weight: var(--font-weight-semi-bold);
+	line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-white-box);
+	border-radius: var(--border-radius);
+	font-size: var(--font-size-normal);
+	padding: .5em 1em;
+	border: none;
+	text-transform: uppercase;
+}
+
+.buddypress .buddypress-wrap .generic-button a.friendship-button.requested:hover {
+	background-color: var(--global-body-lightcolor);
+}
+
+.socialv-member-right a {
+	font-size: var(--font-size-normal);
+	letter-spacing: var(--letter-spacing-one);
+	font-family: var(--highlight-font-family);
+	text-transform: uppercase;
+	font-weight: var(--font-weight-semi-bold);
+}
+
+button .btn-icon {
+    font-size: 1.1em;
+    line-height: 1.1em;
+    padding-left: .3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.subscription-toggle {
+	color: var(--color-theme-white);
+	font-size: var(--font-size-normal);
+	font-family: var(--highlight-font-family);
+	letter-spacing: var(--letter-spacing-one);
+	font-weight: var(--font-weight-semi-bold);
+	line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-success);
+	border-radius: var(--border-radius);
+	padding: .813em 2em;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	overflow: hidden;
+	transition: all .45s ease-in-out;
+}
+
+.is-subscribed a.subscription-toggle {
+	background: var(--color-theme-orange);
+}
+
+#buddypress .btn.moderation-btns, 
+.btn.moderation-btns {
+    background: var(--color-theme-light-grey);
+    color: var(--global-font-title);
+    line-height: normal;
+    padding: .4em 1em 1.2em;
+}
+
+#buddypress a.button.avatar-crop-submit {
+	background-color: var(--color-theme-primary);
+	border-color: var(--color-theme-primary);
+	color: var(--color-theme-white);
+}
+
+#buddypress a.button.avatar-crop-submit:hover {
+	background-color: var(--color-theme-primary-dark);
+	border-color: var(--color-theme-primary);
+	color: var(--color-theme-white);
+}
+.bp-verified-member-request-button {
+    background: var(--color-theme-primary);
+    color: var(--color-theme-white);
+}
+.bp-verified-member-request-button:hover {
+    background: var(--color-theme-primary-dark);
+    color: var(--color-theme-white);
+}
+
+/* bootstrap */
+.modal .btn-close {
+    background-color: var(--color-theme-white);
+    padding: .5em !important;
+    opacity: 1;
+}
+
+@media (max-width: 479px) {
+	#buddypress .btn, 
+	#buddypress .button, 
+	#buddypress .generic-button .btn, 
+	#buddypress a.button, 
+	#buddypress button, 
+	#buddypress input.btn, 
+	#buddypress input.socialv-button, 
+	.btn, .button, .socialv-button, 
+	.learnpress.learnpress-page #lp-button, 
+	.learnpress.learnpress-page .lp-button, 
+	.rs-button {
+		padding: .813em 1em;
+	}
+}
